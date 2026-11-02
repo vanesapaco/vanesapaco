@@ -1,0 +1,1488 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420" role="img" aria-label="Profile scan de Vanesa Paco (TechiWriter)">
+  <title>Profile scan · TechiWriter</title>
+  <defs>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b57edc" stop-opacity="0"/>
+      <stop offset="0.85" stop-color="#b57edc" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.9"/>
+    </linearGradient>
+    <clipPath id="left"><rect x="16" y="56" width="316" height="348" rx="8"/></clipPath>
+    <filter id="glow"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <style>
+    text { font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace; }
+    .on  { animation:pulse 2.4s ease-in-out infinite; }
+    .b0 { animation-delay:0.00s; } .b1 { animation-delay:0.25s; } .b2 { animation-delay:0.50s; } .b3 { animation-delay:0.75s; } .b4 { animation-delay:1.00s; } .b5 { animation-delay:1.25s; } .b6 { animation-delay:1.50s; } .b7 { animation-delay:1.75s; } .b8 { animation-delay:2.00s; } .b9 { animation-delay:2.25s; }
+    .off { fill:#4a1868; opacity:.55; }
+    .k   { fill:#8b7a99; font-size:11px; letter-spacing:1.5px; }
+    .v   { fill:#f9f4fd; font-size:13px; }
+    .sep { stroke:#2a1d36; stroke-width:1; }
+    .row { opacity:0; animation:in .5s ease-out forwards; }
+    .lbl { fill:#b57edc; font-size:11px; letter-spacing:2px; }
+    .title { fill:#cbb8da; font-size:12px; }
+    .cursor { fill:#b57edc; animation:blink 1s steps(1) infinite; }
+    .beam { animation:sweep 3.2s cubic-bezier(.45,0,.55,1) infinite; }
+    .live { fill:#7ee2a8; animation:blink 1.6s steps(1) infinite; }
+    @keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:.6; } }
+    @keyframes in    { from { opacity:0; transform:translateX(-8px); } to { opacity:1; transform:none; } }
+    @keyframes blink { 50% { opacity:0; } }
+    @keyframes sweep { 0% { transform:translateY(-60px); } 100% { transform:translateY(360px); } }
+  </style>
+
+  <rect width="800" height="420" rx="14" fill="#0f0a14"/>
+  <rect x=".5" y=".5" width="799" height="419" rx="14" fill="none" stroke="#3a2648"/>
+  <!-- barra de ventana -->
+  <circle cx="24" cy="22" r="5" fill="#ff5f57"/><circle cx="42" cy="22" r="5" fill="#febc2e"/><circle cx="60" cy="22" r="5" fill="#28c840"/>
+  <text x="400" y="26" text-anchor="middle" class="title">techiwriter@github: ~ $ ./profile-scan --live</text>
+  <circle cx="760" cy="22" r="4" class="live"/><text x="748" y="26" text-anchor="end" class="k">LIVE</text>
+
+  <!-- panel izquierdo: visual map -->
+  <rect x="16" y="44" width="316" height="360" rx="8" fill="#150d1c" stroke="#2a1d36"/>
+  <text x="30" y="62" class="lbl">VISUAL.MAP</text>
+  <g clip-path="url(#left)">
+    <circle class="off" cx="25.3" cy="72.0" r="1"/>
+    <circle class="off" cx="64.9" cy="72.0" r="1"/>
+    <circle class="off" cx="104.5" cy="72.0" r="1"/>
+    <circle class="off" cx="144.1" cy="72.0" r="1"/>
+    <circle class="off" cx="183.7" cy="72.0" r="1"/>
+    <circle class="off" cx="223.3" cy="72.0" r="1"/>
+    <circle class="off" cx="262.9" cy="72.0" r="1"/>
+    <circle class="off" cx="302.5" cy="72.0" r="1"/>
+    <circle class="off" cx="58.3" cy="78.6" r="1"/>
+    <circle class="off" cx="97.9" cy="78.6" r="1"/>
+    <circle class="off" cx="137.5" cy="78.6" r="1"/>
+    <circle class="off" cx="177.1" cy="78.6" r="1"/>
+    <circle class="on b0" cx="216.7" cy="78.6" r="2.7" fill="#858d79"/>
+    <circle class="off" cx="256.3" cy="78.6" r="1"/>
+    <circle class="off" cx="295.9" cy="78.6" r="1"/>
+    <circle class="off" cx="51.7" cy="85.2" r="1"/>
+    <circle class="off" cx="91.3" cy="85.2" r="1"/>
+    <circle class="off" cx="130.9" cy="85.2" r="1"/>
+    <circle class="off" cx="170.5" cy="85.2" r="1"/>
+    <circle class="off" cx="210.1" cy="85.2" r="1"/>
+    <circle class="on b0" cx="216.7" cy="85.2" r="2.7" fill="#96a67d"/>
+    <circle class="on b0" cx="223.3" cy="85.2" r="2.7" fill="#798968"/>
+    <circle class="off" cx="249.7" cy="85.2" r="1"/>
+    <circle class="off" cx="289.3" cy="85.2" r="1"/>
+    <circle class="off" cx="45.1" cy="91.8" r="1"/>
+    <circle class="off" cx="84.7" cy="91.8" r="1"/>
+    <circle class="off" cx="124.3" cy="91.8" r="1"/>
+    <circle class="off" cx="163.9" cy="91.8" r="1"/>
+    <circle class="off" cx="203.5" cy="91.8" r="1"/>
+    <circle class="on b0" cx="210.1" cy="91.8" r="2.7" fill="#9fae88"/>
+    <circle class="on b0" cx="216.7" cy="91.8" r="2.7" fill="#aabe91"/>
+    <circle class="on b0" cx="223.3" cy="91.8" r="2.7" fill="#96ae83"/>
+    <circle class="on b0" cx="229.9" cy="91.8" r="2.7" fill="#93a582"/>
+    <circle class="off" cx="243.1" cy="91.8" r="1"/>
+    <circle class="off" cx="282.7" cy="91.8" r="1"/>
+    <circle class="off" cx="322.3" cy="91.8" r="1"/>
+    <circle class="off" cx="38.5" cy="98.4" r="1"/>
+    <circle class="off" cx="78.1" cy="98.4" r="1"/>
+    <circle class="off" cx="117.7" cy="98.4" r="1"/>
+    <circle class="on b0" cx="144.1" cy="98.4" r="2.7" fill="#8a7876"/>
+    <circle class="on b0" cx="150.7" cy="98.4" r="2.7" fill="#8e6965"/>
+    <circle class="on b0" cx="157.3" cy="98.4" r="2.7" fill="#92655e"/>
+    <circle class="on b0" cx="163.9" cy="98.4" r="2.7" fill="#764741"/>
+    <circle class="on b0" cx="170.5" cy="98.4" r="2.7" fill="#71443e"/>
+    <circle class="on b0" cx="177.1" cy="98.4" r="2.7" fill="#855c58"/>
+    <circle class="on b0" cx="183.7" cy="98.4" r="2.7" fill="#8e6664"/>
+    <circle class="on b0" cx="190.3" cy="98.4" r="2.7" fill="#bda09e"/>
+    <circle class="off" cx="196.9" cy="98.4" r="1"/>
+    <circle class="on b0" cx="210.1" cy="98.4" r="2.7" fill="#8b957c"/>
+    <circle class="on b0" cx="216.7" cy="98.4" r="2.7" fill="#a5bc8e"/>
+    <circle class="on b0" cx="223.3" cy="98.4" r="2.7" fill="#859f77"/>
+    <circle class="on b0" cx="229.9" cy="98.4" r="2.7" fill="#71836a"/>
+    <circle class="off" cx="236.5" cy="98.4" r="1"/>
+    <circle class="off" cx="276.1" cy="98.4" r="1"/>
+    <circle class="off" cx="315.7" cy="98.4" r="1"/>
+    <circle class="off" cx="31.9" cy="105.0" r="1"/>
+    <circle class="off" cx="71.5" cy="105.0" r="1"/>
+    <circle class="off" cx="111.1" cy="105.0" r="1"/>
+    <circle class="on b0" cx="130.9" cy="105.0" r="2.7" fill="#8f6159"/>
+    <circle class="on b0" cx="137.5" cy="105.0" r="2.7" fill="#9e5f55"/>
+    <circle class="on b0" cx="144.1" cy="105.0" r="2.7" fill="#7e3c31"/>
+    <circle class="on b0" cx="150.7" cy="105.0" r="2.7" fill="#7e3c32"/>
+    <circle class="on b0" cx="157.3" cy="105.0" r="2.7" fill="#863f35"/>
+    <circle class="on b0" cx="163.9" cy="105.0" r="2.7" fill="#833e32"/>
+    <circle class="on b0" cx="170.5" cy="105.0" r="2.7" fill="#813e32"/>
+    <circle class="on b0" cx="177.1" cy="105.0" r="2.7" fill="#813e32"/>
+    <circle class="on b0" cx="183.7" cy="105.0" r="2.7" fill="#7e3b32"/>
+    <circle class="on b0" cx="190.3" cy="105.0" r="2.7" fill="#75342b"/>
+    <circle class="on b0" cx="196.9" cy="105.0" r="2.7" fill="#7e4842"/>
+    <circle class="on b0" cx="203.5" cy="105.0" r="2.7" fill="#885f5b"/>
+    <circle class="on b0" cx="210.1" cy="105.0" r="2.7" fill="#a6a68f"/>
+    <circle class="on b0" cx="216.7" cy="105.0" r="2.7" fill="#829974"/>
+    <circle class="on b0" cx="223.3" cy="105.0" r="2.7" fill="#91b88f"/>
+    <circle class="on b0" cx="229.9" cy="105.0" r="2.7" fill="#6d8471"/>
+    <circle class="on b0" cx="236.5" cy="105.0" r="2.7" fill="#a0b28e"/>
+    <circle class="on b0" cx="243.1" cy="105.0" r="2.7" fill="#81906a"/>
+    <circle class="on b0" cx="249.7" cy="105.0" r="2.7" fill="#8d9f73"/>
+    <circle class="on b0" cx="256.3" cy="105.0" r="2.7" fill="#86976d"/>
+    <circle class="on b0" cx="262.9" cy="105.0" r="2.7" fill="#748162"/>
+    <circle class="off" cx="269.5" cy="105.0" r="1"/>
+    <circle class="off" cx="309.1" cy="105.0" r="1"/>
+    <circle class="off" cx="25.3" cy="111.6" r="1"/>
+    <circle class="off" cx="64.9" cy="111.6" r="1"/>
+    <circle class="off" cx="104.5" cy="111.6" r="1"/>
+    <circle class="on b1" cx="117.7" cy="111.6" r="2.7" fill="#9e7469"/>
+    <circle class="on b1" cx="124.3" cy="111.6" r="2.7" fill="#8e4e3f"/>
+    <circle class="on b1" cx="130.9" cy="111.6" r="2.7" fill="#984f3f"/>
+    <circle class="on b1" cx="137.5" cy="111.6" r="2.7" fill="#8b4232"/>
+    <circle class="on b1" cx="144.1" cy="111.6" r="2.7" fill="#863f32"/>
+    <circle class="on b1" cx="150.7" cy="111.6" r="2.7" fill="#813c31"/>
+    <circle class="on b1" cx="157.3" cy="111.6" r="2.7" fill="#7f3b31"/>
+    <circle class="on b1" cx="163.9" cy="111.6" r="2.7" fill="#7f3c31"/>
+    <circle class="on b1" cx="170.5" cy="111.6" r="2.7" fill="#813b31"/>
+    <circle class="on b1" cx="177.1" cy="111.6" r="2.7" fill="#813c31"/>
+    <circle class="on b1" cx="183.7" cy="111.6" r="2.7" fill="#813b31"/>
+    <circle class="on b1" cx="190.3" cy="111.6" r="2.7" fill="#833c32"/>
+    <circle class="on b1" cx="196.9" cy="111.6" r="2.7" fill="#833e32"/>
+    <circle class="on b1" cx="203.5" cy="111.6" r="2.7" fill="#7f3b34"/>
+    <circle class="on b1" cx="210.1" cy="111.6" r="2.7" fill="#d9b8f0"/>
+    <circle class="on b1" cx="216.7" cy="111.6" r="2.7" fill="#7b7f69"/>
+    <circle class="on b1" cx="223.3" cy="111.6" r="2.7" fill="#78a689"/>
+    <circle class="on b1" cx="229.9" cy="111.6" r="2.7" fill="#79a986"/>
+    <circle class="on b1" cx="236.5" cy="111.6" r="2.7" fill="#7c9670"/>
+    <circle class="on b1" cx="243.1" cy="111.6" r="2.7" fill="#92a875"/>
+    <circle class="on b1" cx="249.7" cy="111.6" r="2.7" fill="#a0b785"/>
+    <circle class="on b1" cx="256.3" cy="111.6" r="2.7" fill="#a5bb8a"/>
+    <circle class="on b1" cx="262.9" cy="111.6" r="2.7" fill="#818f6f"/>
+    <circle class="off" cx="302.5" cy="111.6" r="1"/>
+    <circle class="off" cx="58.3" cy="118.2" r="1"/>
+    <circle class="off" cx="97.9" cy="118.2" r="1"/>
+    <circle class="on b1" cx="111.1" cy="118.2" r="2.7" fill="#a06558"/>
+    <circle class="on b1" cx="117.7" cy="118.2" r="2.7" fill="#c86c54"/>
+    <circle class="on b1" cx="124.3" cy="118.2" r="2.7" fill="#894232"/>
+    <circle class="on b1" cx="130.9" cy="118.2" r="2.7" fill="#7b3831"/>
+    <circle class="on b1" cx="137.5" cy="118.2" r="2.7" fill="#813b31"/>
+    <circle class="on b1" cx="144.1" cy="118.2" r="2.7" fill="#853c32"/>
+    <circle class="on b1" cx="150.7" cy="118.2" r="2.7" fill="#7f3c32"/>
+    <circle class="on b1" cx="157.3" cy="118.2" r="2.7" fill="#7f3b2f"/>
+    <circle class="on b1" cx="163.9" cy="118.2" r="2.7" fill="#813b2f"/>
+    <circle class="on b1" cx="170.5" cy="118.2" r="2.7" fill="#813c31"/>
+    <circle class="on b1" cx="177.1" cy="118.2" r="2.7" fill="#7f3c31"/>
+    <circle class="on b1" cx="183.7" cy="118.2" r="2.7" fill="#823c32"/>
+    <circle class="on b1" cx="190.3" cy="118.2" r="2.7" fill="#853e34"/>
+    <circle class="on b1" cx="196.9" cy="118.2" r="2.7" fill="#833c32"/>
+    <circle class="on b1" cx="203.5" cy="118.2" r="2.7" fill="#813b32"/>
+    <circle class="on b1" cx="210.1" cy="118.2" r="2.7" fill="#7b3831"/>
+    <circle class="on b1" cx="216.7" cy="118.2" r="2.7" fill="#69322b"/>
+    <circle class="on b1" cx="223.3" cy="118.2" r="2.7" fill="#5e5445"/>
+    <circle class="on b1" cx="229.9" cy="118.2" r="2.7" fill="#7fae8f"/>
+    <circle class="on b1" cx="236.5" cy="118.2" r="2.7" fill="#668c72"/>
+    <circle class="on b1" cx="243.1" cy="118.2" r="2.7" fill="#809d79"/>
+    <circle class="on b1" cx="249.7" cy="118.2" r="2.7" fill="#9db488"/>
+    <circle class="on b1" cx="256.3" cy="118.2" r="2.7" fill="#8a9d75"/>
+    <circle class="on b1" cx="262.9" cy="118.2" r="2.7" fill="#7b8570"/>
+    <circle class="off" cx="295.9" cy="118.2" r="1"/>
+    <circle class="off" cx="51.7" cy="124.8" r="1"/>
+    <circle class="off" cx="91.3" cy="124.8" r="1"/>
+    <circle class="on b1" cx="104.5" cy="124.8" r="2.7" fill="#9e5f52"/>
+    <circle class="on b1" cx="111.1" cy="124.8" r="2.7" fill="#cb6c52"/>
+    <circle class="on b1" cx="117.7" cy="124.8" r="2.7" fill="#8f4434"/>
+    <circle class="on b1" cx="124.3" cy="124.8" r="2.7" fill="#833e32"/>
+    <circle class="on b1" cx="130.9" cy="124.8" r="2.7" fill="#813b32"/>
+    <circle class="on b1" cx="137.5" cy="124.8" r="2.7" fill="#7e3a2f"/>
+    <circle class="on b1" cx="144.1" cy="124.8" r="2.7" fill="#7f3a32"/>
+    <circle class="on b1" cx="150.7" cy="124.8" r="2.7" fill="#7e3a2f"/>
+    <circle class="on b1" cx="157.3" cy="124.8" r="2.7" fill="#813b2f"/>
+    <circle class="on b1" cx="163.9" cy="124.8" r="2.7" fill="#813c31"/>
+    <circle class="on b1" cx="170.5" cy="124.8" r="2.7" fill="#813b31"/>
+    <circle class="on b1" cx="177.1" cy="124.8" r="2.7" fill="#813c31"/>
+    <circle class="on b1" cx="183.7" cy="124.8" r="2.7" fill="#833c32"/>
+    <circle class="on b1" cx="190.3" cy="124.8" r="2.7" fill="#833c32"/>
+    <circle class="on b1" cx="196.9" cy="124.8" r="2.7" fill="#813b32"/>
+    <circle class="on b1" cx="203.5" cy="124.8" r="2.7" fill="#813b31"/>
+    <circle class="on b1" cx="210.1" cy="124.8" r="2.7" fill="#7f3a31"/>
+    <circle class="on b1" cx="216.7" cy="124.8" r="2.7" fill="#7c3a31"/>
+    <circle class="on b1" cx="223.3" cy="124.8" r="2.7" fill="#7f3c2f"/>
+    <circle class="on b1" cx="229.9" cy="124.8" r="2.7" fill="#76594c"/>
+    <circle class="on b1" cx="236.5" cy="124.8" r="2.7" fill="#96b6a2"/>
+    <circle class="on b1" cx="243.1" cy="124.8" r="2.7" fill="#8eae96"/>
+    <circle class="on b1" cx="249.7" cy="124.8" r="2.7" fill="#859175"/>
+    <circle class="on b1" cx="256.3" cy="124.8" r="2.7" fill="#5c4235"/>
+    <circle class="on b1" cx="262.9" cy="124.8" r="2.7" fill="#79524f"/>
+    <circle class="off" cx="289.3" cy="124.8" r="1"/>
+    <circle class="off" cx="45.1" cy="131.4" r="1"/>
+    <circle class="off" cx="84.7" cy="131.4" r="1"/>
+    <circle class="on b1" cx="97.9" cy="131.4" r="2.7" fill="#a25f4e"/>
+    <circle class="on b1" cx="104.5" cy="131.4" r="2.7" fill="#d3785e"/>
+    <circle class="on b1" cx="111.1" cy="131.4" r="2.7" fill="#823c2f"/>
+    <circle class="on b1" cx="117.7" cy="131.4" r="2.7" fill="#833e32"/>
+    <circle class="on b1" cx="124.3" cy="131.4" r="2.7" fill="#863f32"/>
+    <circle class="on b1" cx="130.9" cy="131.4" r="2.7" fill="#863f32"/>
+    <circle class="on b1" cx="137.5" cy="131.4" r="2.7" fill="#7c382f"/>
+    <circle class="on b1" cx="144.1" cy="131.4" r="2.7" fill="#7c3a2f"/>
+    <circle class="on b1" cx="150.7" cy="131.4" r="2.7" fill="#7f3a2f"/>
+    <circle class="on b1" cx="157.3" cy="131.4" r="2.7" fill="#823c32"/>
+    <circle class="on b1" cx="163.9" cy="131.4" r="2.7" fill="#823c31"/>
+    <circle class="on b1" cx="170.5" cy="131.4" r="2.7" fill="#813c31"/>
+    <circle class="on b1" cx="177.1" cy="131.4" r="2.7" fill="#833c32"/>
+    <circle class="on b1" cx="183.7" cy="131.4" r="2.7" fill="#853c32"/>
+    <circle class="on b1" cx="190.3" cy="131.4" r="2.7" fill="#823b31"/>
+    <circle class="on b1" cx="196.9" cy="131.4" r="2.7" fill="#7f3a31"/>
+    <circle class="on b1" cx="203.5" cy="131.4" r="2.7" fill="#7e3b31"/>
+    <circle class="on b1" cx="210.1" cy="131.4" r="2.7" fill="#7e3b31"/>
+    <circle class="on b1" cx="216.7" cy="131.4" r="2.7" fill="#7f3b31"/>
+    <circle class="on b1" cx="223.3" cy="131.4" r="2.7" fill="#833e2f"/>
+    <circle class="on b1" cx="229.9" cy="131.4" r="2.7" fill="#853e32"/>
+    <circle class="on b1" cx="236.5" cy="131.4" r="2.7" fill="#d9b8f0"/>
+    <circle class="on b1" cx="243.1" cy="131.4" r="2.7" fill="#62342a"/>
+    <circle class="on b1" cx="249.7" cy="131.4" r="2.7" fill="#6b342b"/>
+    <circle class="on b1" cx="256.3" cy="131.4" r="2.7" fill="#763a31"/>
+    <circle class="on b1" cx="262.9" cy="131.4" r="2.7" fill="#914c3c"/>
+    <circle class="off" cx="282.7" cy="131.4" r="1"/>
+    <circle class="off" cx="322.3" cy="131.4" r="1"/>
+    <circle class="off" cx="38.5" cy="138.0" r="1"/>
+    <circle class="off" cx="78.1" cy="138.0" r="1"/>
+    <circle class="on b1" cx="91.3" cy="138.0" r="2.7" fill="#9e6558"/>
+    <circle class="on b1" cx="97.9" cy="138.0" r="2.7" fill="#ef8865"/>
+    <circle class="on b1" cx="104.5" cy="138.0" r="2.7" fill="#e58262"/>
+    <circle class="on b1" cx="111.1" cy="138.0" r="2.7" fill="#994f3f"/>
+    <circle class="on b1" cx="117.7" cy="138.0" r="2.7" fill="#813c34"/>
+    <circle class="on b1" cx="124.3" cy="138.0" r="2.7" fill="#863f34"/>
+    <circle class="on b1" cx="130.9" cy="138.0" r="2.7" fill="#863e34"/>
+    <circle class="on b1" cx="137.5" cy="138.0" r="2.7" fill="#833c32"/>
+    <circle class="on b1" cx="144.1" cy="138.0" r="2.7" fill="#7e3b32"/>
+    <circle class="on b1" cx="150.7" cy="138.0" r="2.7" fill="#813c31"/>
+    <circle class="on b1" cx="157.3" cy="138.0" r="2.7" fill="#853e34"/>
+    <circle class="on b1" cx="163.9" cy="138.0" r="2.7" fill="#833e32"/>
+    <circle class="on b1" cx="170.5" cy="138.0" r="2.7" fill="#833c32"/>
+    <circle class="on b1" cx="177.1" cy="138.0" r="2.7" fill="#853c34"/>
+    <circle class="on b1" cx="183.7" cy="138.0" r="2.7" fill="#823c32"/>
+    <circle class="on b1" cx="190.3" cy="138.0" r="2.7" fill="#7f3b31"/>
+    <circle class="on b1" cx="196.9" cy="138.0" r="2.7" fill="#7f3c32"/>
+    <circle class="on b1" cx="203.5" cy="138.0" r="2.7" fill="#7c3c31"/>
+    <circle class="on b1" cx="210.1" cy="138.0" r="2.7" fill="#7c3b31"/>
+    <circle class="on b1" cx="216.7" cy="138.0" r="2.7" fill="#813e2f"/>
+    <circle class="on b1" cx="223.3" cy="138.0" r="2.7" fill="#833f32"/>
+    <circle class="on b1" cx="229.9" cy="138.0" r="2.7" fill="#833f31"/>
+    <circle class="on b1" cx="236.5" cy="138.0" r="2.7" fill="#72322b"/>
+    <circle class="on b1" cx="243.1" cy="138.0" r="2.7" fill="#6b2f2c"/>
+    <circle class="on b1" cx="249.7" cy="138.0" r="2.7" fill="#7c3f35"/>
+    <circle class="on b1" cx="256.3" cy="138.0" r="2.7" fill="#814135"/>
+    <circle class="on b1" cx="262.9" cy="138.0" r="2.7" fill="#914935"/>
+    <circle class="on b1" cx="269.5" cy="138.0" r="2.7" fill="#a06454"/>
+    <circle class="off" cx="276.1" cy="138.0" r="1"/>
+    <circle class="off" cx="315.7" cy="138.0" r="1"/>
+    <circle class="off" cx="31.9" cy="144.6" r="1"/>
+    <circle class="off" cx="71.5" cy="144.6" r="1"/>
+    <circle class="on b1" cx="84.7" cy="144.6" r="2.7" fill="#987169"/>
+    <circle class="on b1" cx="91.3" cy="144.6" r="2.7" fill="#d3785e"/>
+    <circle class="on b1" cx="97.9" cy="144.6" r="2.7" fill="#f58964"/>
+    <circle class="on b1" cx="104.5" cy="144.6" r="2.7" fill="#ea8561"/>
+    <circle class="on b1" cx="111.1" cy="144.6" r="2.7" fill="#994f3f"/>
+    <circle class="on b1" cx="117.7" cy="144.6" r="2.7" fill="#854135"/>
+    <circle class="on b1" cx="124.3" cy="144.6" r="2.7" fill="#864132"/>
+    <circle class="on b1" cx="130.9" cy="144.6" r="2.7" fill="#833c31"/>
+    <circle class="on b1" cx="137.5" cy="144.6" r="2.7" fill="#884132"/>
+    <circle class="on b1" cx="144.1" cy="144.6" r="2.7" fill="#8c4737"/>
+    <circle class="on b1" cx="150.7" cy="144.6" r="2.7" fill="#854134"/>
+    <circle class="on b1" cx="157.3" cy="144.6" r="2.7" fill="#884237"/>
+    <circle class="on b1" cx="163.9" cy="144.6" r="2.7" fill="#884235"/>
+    <circle class="on b1" cx="170.5" cy="144.6" r="2.7" fill="#884135"/>
+    <circle class="on b1" cx="177.1" cy="144.6" r="2.7" fill="#883f34"/>
+    <circle class="on b1" cx="183.7" cy="144.6" r="2.7" fill="#823e34"/>
+    <circle class="on b1" cx="190.3" cy="144.6" r="2.7" fill="#7c3c31"/>
+    <circle class="on b1" cx="196.9" cy="144.6" r="2.7" fill="#813e34"/>
+    <circle class="on b1" cx="203.5" cy="144.6" r="2.7" fill="#813f34"/>
+    <circle class="on b1" cx="210.1" cy="144.6" r="2.7" fill="#854132"/>
+    <circle class="on b1" cx="216.7" cy="144.6" r="2.7" fill="#a95744"/>
+    <circle class="on b1" cx="223.3" cy="144.6" r="2.7" fill="#864131"/>
+    <circle class="on b1" cx="229.9" cy="144.6" r="2.7" fill="#853f34"/>
+    <circle class="on b1" cx="236.5" cy="144.6" r="2.7" fill="#7e3c34"/>
+    <circle class="on b1" cx="243.1" cy="144.6" r="2.7" fill="#d9b8f0"/>
+    <circle class="on b1" cx="249.7" cy="144.6" r="2.7" fill="#793b34"/>
+    <circle class="on b1" cx="256.3" cy="144.6" r="2.7" fill="#834435"/>
+    <circle class="on b1" cx="262.9" cy="144.6" r="2.7" fill="#834231"/>
+    <circle class="on b1" cx="269.5" cy="144.6" r="2.7" fill="#a2513e"/>
+    <circle class="off" cx="309.1" cy="144.6" r="1"/>
+    <circle class="off" cx="25.3" cy="151.2" r="1"/>
+    <circle class="off" cx="64.9" cy="151.2" r="1"/>
+    <circle class="on b2" cx="84.7" cy="151.2" r="2.7" fill="#a86b5c"/>
+    <circle class="on b2" cx="91.3" cy="151.2" r="2.7" fill="#e58164"/>
+    <circle class="on b2" cx="97.9" cy="151.2" r="2.7" fill="#ed8662"/>
+    <circle class="on b2" cx="104.5" cy="151.2" r="2.7" fill="#ea835f"/>
+    <circle class="on b2" cx="111.1" cy="151.2" r="2.7" fill="#b25c44"/>
+    <circle class="on b2" cx="117.7" cy="151.2" r="2.7" fill="#994e3e"/>
+    <circle class="on b2" cx="124.3" cy="151.2" r="2.7" fill="#833f34"/>
+    <circle class="on b2" cx="130.9" cy="151.2" r="2.7" fill="#74342b"/>
+    <circle class="on b2" cx="137.5" cy="151.2" r="2.7" fill="#954b3a"/>
+    <circle class="on b2" cx="144.1" cy="151.2" r="2.7" fill="#c66c52"/>
+    <circle class="on b2" cx="150.7" cy="151.2" r="2.7" fill="#914835"/>
+    <circle class="on b2" cx="157.3" cy="151.2" r="2.7" fill="#984c3a"/>
+    <circle class="on b2" cx="163.9" cy="151.2" r="2.7" fill="#8c4537"/>
+    <circle class="on b2" cx="170.5" cy="151.2" r="2.7" fill="#853f32"/>
+    <circle class="on b2" cx="177.1" cy="151.2" r="2.7" fill="#864234"/>
+    <circle class="on b2" cx="183.7" cy="151.2" r="2.7" fill="#833f37"/>
+    <circle class="on b2" cx="190.3" cy="151.2" r="2.7" fill="#a95845"/>
+    <circle class="on b2" cx="196.9" cy="151.2" r="2.7" fill="#934b3b"/>
+    <circle class="on b2" cx="203.5" cy="151.2" r="2.7" fill="#7f3e31"/>
+    <circle class="on b2" cx="210.1" cy="151.2" r="2.7" fill="#8b4532"/>
+    <circle class="on b2" cx="216.7" cy="151.2" r="2.7" fill="#9e513e"/>
+    <circle class="on b2" cx="223.3" cy="151.2" r="2.7" fill="#8b4435"/>
+    <circle class="on b2" cx="229.9" cy="151.2" r="2.7" fill="#853f35"/>
+    <circle class="on b2" cx="236.5" cy="151.2" r="2.7" fill="#7f3f35"/>
+    <circle class="on b2" cx="243.1" cy="151.2" r="2.7" fill="#71342c"/>
+    <circle class="on b2" cx="249.7" cy="151.2" r="2.7" fill="#6e2f2a"/>
+    <circle class="on b2" cx="256.3" cy="151.2" r="2.7" fill="#854435"/>
+    <circle class="on b2" cx="262.9" cy="151.2" r="2.7" fill="#894232"/>
+    <circle class="on b2" cx="269.5" cy="151.2" r="2.7" fill="#ae5842"/>
+    <circle class="on b2" cx="276.1" cy="151.2" r="2.7" fill="#986961"/>
+    <circle class="off" cx="302.5" cy="151.2" r="1"/>
+    <circle class="off" cx="58.3" cy="157.8" r="1"/>
+    <circle class="on b2" cx="84.7" cy="157.8" r="2.7" fill="#c86f57"/>
+    <circle class="on b2" cx="91.3" cy="157.8" r="2.7" fill="#b25c47"/>
+    <circle class="on b2" cx="97.9" cy="157.8" r="2.7" fill="#c66e52"/>
+    <circle class="on b2" cx="104.5" cy="157.8" r="2.7" fill="#a3513c"/>
+    <circle class="on b2" cx="111.1" cy="157.8" r="2.7" fill="#a2513c"/>
+    <circle class="on b2" cx="117.7" cy="157.8" r="2.7" fill="#8c4537"/>
+    <circle class="on b2" cx="124.3" cy="157.8" r="2.7" fill="#7e3f34"/>
+    <circle class="on b2" cx="130.9" cy="157.8" r="2.7" fill="#662e25"/>
+    <circle class="on b2" cx="137.5" cy="157.8" r="2.7" fill="#a05441"/>
+    <circle class="on b2" cx="144.1" cy="157.8" r="2.7" fill="#c66b51"/>
+    <circle class="on b2" cx="150.7" cy="157.8" r="2.7" fill="#a95841"/>
+    <circle class="on b2" cx="157.3" cy="157.8" r="2.7" fill="#ae5942"/>
+    <circle class="on b2" cx="163.9" cy="157.8" r="2.7" fill="#a0543f"/>
+    <circle class="on b2" cx="170.5" cy="157.8" r="2.7" fill="#79372c"/>
+    <circle class="on b2" cx="177.1" cy="157.8" r="2.7" fill="#894538"/>
+    <circle class="on b2" cx="183.7" cy="157.8" r="2.7" fill="#8b4738"/>
+    <circle class="on b2" cx="190.3" cy="157.8" r="2.7" fill="#9c513c"/>
+    <circle class="on b2" cx="196.9" cy="157.8" r="2.7" fill="#a25542"/>
+    <circle class="on b2" cx="203.5" cy="157.8" r="2.7" fill="#813f31"/>
+    <circle class="on b2" cx="210.1" cy="157.8" r="2.7" fill="#834134"/>
+    <circle class="on b2" cx="216.7" cy="157.8" r="2.7" fill="#8c4737"/>
+    <circle class="on b2" cx="223.3" cy="157.8" r="2.7" fill="#8b4537"/>
+    <circle class="on b2" cx="229.9" cy="157.8" r="2.7" fill="#864437"/>
+    <circle class="on b2" cx="236.5" cy="157.8" r="2.7" fill="#864437"/>
+    <circle class="on b2" cx="243.1" cy="157.8" r="2.7" fill="#824134"/>
+    <circle class="on b2" cx="249.7" cy="157.8" r="2.7" fill="#6b2c27"/>
+    <circle class="on b2" cx="256.3" cy="157.8" r="2.7" fill="#813f35"/>
+    <circle class="on b2" cx="262.9" cy="157.8" r="2.7" fill="#914835"/>
+    <circle class="on b2" cx="269.5" cy="157.8" r="2.7" fill="#b85b42"/>
+    <circle class="on b2" cx="276.1" cy="157.8" r="2.7" fill="#8c4b3e"/>
+    <circle class="off" cx="295.9" cy="157.8" r="1"/>
+    <circle class="off" cx="51.7" cy="164.4" r="1"/>
+    <circle class="on b2" cx="78.1" cy="164.4" r="2.7" fill="#b37f72"/>
+    <circle class="on b2" cx="84.7" cy="164.4" r="2.7" fill="#d37557"/>
+    <circle class="on b2" cx="91.3" cy="164.4" r="2.7" fill="#854434"/>
+    <circle class="on b2" cx="97.9" cy="164.4" r="2.7" fill="#834137"/>
+    <circle class="on b2" cx="104.5" cy="164.4" r="2.7" fill="#8e483a"/>
+    <circle class="on b2" cx="111.1" cy="164.4" r="2.7" fill="#8c4435"/>
+    <circle class="on b2" cx="117.7" cy="164.4" r="2.7" fill="#8f4838"/>
+    <circle class="on b2" cx="124.3" cy="164.4" r="2.7" fill="#72372e"/>
+    <circle class="on b2" cx="130.9" cy="164.4" r="2.7" fill="#71372f"/>
+    <circle class="on b2" cx="137.5" cy="164.4" r="2.7" fill="#934e3e"/>
+    <circle class="on b2" cx="144.1" cy="164.4" r="2.7" fill="#a95b45"/>
+    <circle class="on b2" cx="150.7" cy="164.4" r="2.7" fill="#9c523e"/>
+    <circle class="on b2" cx="157.3" cy="164.4" r="2.7" fill="#99513c"/>
+    <circle class="on b2" cx="163.9" cy="164.4" r="2.7" fill="#934f3b"/>
+    <circle class="on b2" cx="170.5" cy="164.4" r="2.7" fill="#6f2f28"/>
+    <circle class="on b2" cx="177.1" cy="164.4" r="2.7" fill="#89473a"/>
+    <circle class="on b2" cx="183.7" cy="164.4" r="2.7" fill="#914c3a"/>
+    <circle class="on b2" cx="190.3" cy="164.4" r="2.7" fill="#8f4b38"/>
+    <circle class="on b2" cx="196.9" cy="164.4" r="2.7" fill="#914b38"/>
+    <circle class="on b2" cx="203.5" cy="164.4" r="2.7" fill="#934e3a"/>
+    <circle class="on b2" cx="210.1" cy="164.4" r="2.7" fill="#7e382b"/>
+    <circle class="on b2" cx="216.7" cy="164.4" r="2.7" fill="#924c38"/>
+    <circle class="on b2" cx="223.3" cy="164.4" r="2.7" fill="#8c4937"/>
+    <circle class="on b2" cx="229.9" cy="164.4" r="2.7" fill="#8b4838"/>
+    <circle class="on b2" cx="236.5" cy="164.4" r="2.7" fill="#8c4837"/>
+    <circle class="on b2" cx="243.1" cy="164.4" r="2.7" fill="#8b4737"/>
+    <circle class="on b2" cx="249.7" cy="164.4" r="2.7" fill="#6e2f2a"/>
+    <circle class="on b2" cx="256.3" cy="164.4" r="2.7" fill="#824135"/>
+    <circle class="on b2" cx="262.9" cy="164.4" r="2.7" fill="#8c4737"/>
+    <circle class="on b2" cx="269.5" cy="164.4" r="2.7" fill="#a95741"/>
+    <circle class="on b2" cx="276.1" cy="164.4" r="2.7" fill="#a35745"/>
+    <circle class="off" cx="289.3" cy="164.4" r="1"/>
+    <circle class="off" cx="45.1" cy="171.0" r="1"/>
+    <circle class="on b2" cx="78.1" cy="171.0" r="2.7" fill="#bf7c6c"/>
+    <circle class="on b2" cx="84.7" cy="171.0" r="2.7" fill="#b05c44"/>
+    <circle class="on b2" cx="91.3" cy="171.0" r="2.7" fill="#8c4838"/>
+    <circle class="on b2" cx="97.9" cy="171.0" r="2.7" fill="#88443b"/>
+    <circle class="on b2" cx="104.5" cy="171.0" r="2.7" fill="#7c3b31"/>
+    <circle class="on b2" cx="111.1" cy="171.0" r="2.7" fill="#914938"/>
+    <circle class="on b2" cx="117.7" cy="171.0" r="2.7" fill="#964f3c"/>
+    <circle class="on b2" cx="124.3" cy="171.0" r="2.7" fill="#7b3735"/>
+    <circle class="on b2" cx="130.9" cy="171.0" r="2.7" fill="#ab625c"/>
+    <circle class="on b2" cx="137.5" cy="171.0" r="2.7" fill="#9c5541"/>
+    <circle class="on b2" cx="144.1" cy="171.0" r="2.7" fill="#9e5541"/>
+    <circle class="on b2" cx="150.7" cy="171.0" r="2.7" fill="#a05541"/>
+    <circle class="on b2" cx="157.3" cy="171.0" r="2.7" fill="#9b543f"/>
+    <circle class="on b2" cx="163.9" cy="171.0" r="2.7" fill="#98513f"/>
+    <circle class="on b2" cx="170.5" cy="171.0" r="2.7" fill="#a65955"/>
+    <circle class="on b2" cx="177.1" cy="171.0" r="2.7" fill="#813e34"/>
+    <circle class="on b2" cx="183.7" cy="171.0" r="2.7" fill="#98523e"/>
+    <circle class="on b2" cx="190.3" cy="171.0" r="2.7" fill="#96513e"/>
+    <circle class="on b2" cx="196.9" cy="171.0" r="2.7" fill="#99513e"/>
+    <circle class="on b2" cx="203.5" cy="171.0" r="2.7" fill="#99513c"/>
+    <circle class="on b2" cx="210.1" cy="171.0" r="2.7" fill="#7f3a31"/>
+    <circle class="on b2" cx="216.7" cy="171.0" r="2.7" fill="#89453a"/>
+    <circle class="on b2" cx="223.3" cy="171.0" r="2.7" fill="#8f4e3a"/>
+    <circle class="on b2" cx="229.9" cy="171.0" r="2.7" fill="#8e4e3b"/>
+    <circle class="on b2" cx="236.5" cy="171.0" r="2.7" fill="#924c3a"/>
+    <circle class="on b2" cx="243.1" cy="171.0" r="2.7" fill="#914b38"/>
+    <circle class="on b2" cx="249.7" cy="171.0" r="2.7" fill="#6e2f2c"/>
+    <circle class="on b2" cx="256.3" cy="171.0" r="2.7" fill="#753834"/>
+    <circle class="on b2" cx="262.9" cy="171.0" r="2.7" fill="#834135"/>
+    <circle class="on b2" cx="269.5" cy="171.0" r="2.7" fill="#7f3e31"/>
+    <circle class="on b2" cx="276.1" cy="171.0" r="2.7" fill="#b05f4c"/>
+    <circle class="on b2" cx="282.7" cy="171.0" r="2.7" fill="#82554f"/>
+    <circle class="off" cx="322.3" cy="171.0" r="1"/>
+    <circle class="off" cx="38.5" cy="177.6" r="1"/>
+    <circle class="on b2" cx="78.1" cy="177.6" r="2.7" fill="#b07161"/>
+    <circle class="on b2" cx="84.7" cy="177.6" r="2.7" fill="#954b35"/>
+    <circle class="on b2" cx="91.3" cy="177.6" r="2.7" fill="#924b3a"/>
+    <circle class="on b2" cx="97.9" cy="177.6" r="2.7" fill="#8c473c"/>
+    <circle class="on b2" cx="104.5" cy="177.6" r="2.7" fill="#692c28"/>
+    <circle class="on b2" cx="111.1" cy="177.6" r="2.7" fill="#934e41"/>
+    <circle class="on b2" cx="117.7" cy="177.6" r="2.7" fill="#8b4437"/>
+    <circle class="on b2" cx="124.3" cy="177.6" r="2.7" fill="#ac6a67"/>
+    <circle class="on b2" cx="130.9" cy="177.6" r="2.7" fill="#d97f78"/>
+    <circle class="on b2" cx="137.5" cy="177.6" r="2.7" fill="#a85b47"/>
+    <circle class="on b2" cx="144.1" cy="177.6" r="2.7" fill="#a25842"/>
+    <circle class="on b2" cx="150.7" cy="177.6" r="2.7" fill="#a05745"/>
+    <circle class="on b2" cx="157.3" cy="177.6" r="2.7" fill="#9e5744"/>
+    <circle class="on b2" cx="163.9" cy="177.6" r="2.7" fill="#9c5744"/>
+    <circle class="on b2" cx="170.5" cy="177.6" r="2.7" fill="#d58178"/>
+    <circle class="on b2" cx="177.1" cy="177.6" r="2.7" fill="#c2746b"/>
+    <circle class="on b2" cx="183.7" cy="177.6" r="2.7" fill="#96513e"/>
+    <circle class="on b2" cx="190.3" cy="177.6" r="2.7" fill="#a35842"/>
+    <circle class="on b2" cx="196.9" cy="177.6" r="2.7" fill="#a25742"/>
+    <circle class="on b2" cx="203.5" cy="177.6" r="2.7" fill="#9f5541"/>
+    <circle class="on b2" cx="210.1" cy="177.6" r="2.7" fill="#8e493c"/>
+    <circle class="on b2" cx="216.7" cy="177.6" r="2.7" fill="#75372e"/>
+    <circle class="on b2" cx="223.3" cy="177.6" r="2.7" fill="#934f3e"/>
+    <circle class="on b2" cx="229.9" cy="177.6" r="2.7" fill="#96523e"/>
+    <circle class="on b2" cx="236.5" cy="177.6" r="2.7" fill="#96513c"/>
+    <circle class="on b2" cx="243.1" cy="177.6" r="2.7" fill="#924c3c"/>
+    <circle class="on b2" cx="249.7" cy="177.6" r="2.7" fill="#6f3431"/>
+    <circle class="on b2" cx="256.3" cy="177.6" r="2.7" fill="#6e312e"/>
+    <circle class="on b2" cx="262.9" cy="177.6" r="2.7" fill="#884238"/>
+    <circle class="on b2" cx="269.5" cy="177.6" r="2.7" fill="#884435"/>
+    <circle class="on b2" cx="276.1" cy="177.6" r="2.7" fill="#bd684f"/>
+    <circle class="on b2" cx="282.7" cy="177.6" r="2.7" fill="#b08278"/>
+    <circle class="off" cx="315.7" cy="177.6" r="1"/>
+    <circle class="off" cx="31.9" cy="184.2" r="1"/>
+    <circle class="off" cx="71.5" cy="184.2" r="1"/>
+    <circle class="on b2" cx="78.1" cy="184.2" r="2.7" fill="#955849"/>
+    <circle class="on b2" cx="84.7" cy="184.2" r="2.7" fill="#8e493a"/>
+    <circle class="on b2" cx="91.3" cy="184.2" r="2.7" fill="#954e3b"/>
+    <circle class="on b2" cx="97.9" cy="184.2" r="2.7" fill="#934c3b"/>
+    <circle class="on b2" cx="104.5" cy="184.2" r="2.7" fill="#6b2c28"/>
+    <circle class="on b2" cx="111.1" cy="184.2" r="2.7" fill="#86453e"/>
+    <circle class="on b2" cx="117.7" cy="184.2" r="2.7" fill="#ab625c"/>
+    <circle class="on b2" cx="124.3" cy="184.2" r="2.7" fill="#f1bbae"/>
+    <circle class="on b2" cx="130.9" cy="184.2" r="2.7" fill="#cb9388"/>
+    <circle class="on b2" cx="137.5" cy="184.2" r="2.7" fill="#a04f3f"/>
+    <circle class="on b2" cx="144.1" cy="184.2" r="2.7" fill="#ab5c48"/>
+    <circle class="on b2" cx="150.7" cy="184.2" r="2.7" fill="#965142"/>
+    <circle class="on b2" cx="157.3" cy="184.2" r="2.7" fill="#a25b47"/>
+    <circle class="on b2" cx="163.9" cy="184.2" r="2.7" fill="#a95e49"/>
+    <circle class="on b2" cx="170.5" cy="184.2" r="2.7" fill="#cd7c6f"/>
+    <circle class="on b2" cx="177.1" cy="184.2" r="2.7" fill="#e3a49b"/>
+    <circle class="on b2" cx="183.7" cy="184.2" r="2.7" fill="#934b41"/>
+    <circle class="on b2" cx="190.3" cy="184.2" r="2.7" fill="#a25745"/>
+    <circle class="on b2" cx="196.9" cy="184.2" r="2.7" fill="#a65845"/>
+    <circle class="on b2" cx="203.5" cy="184.2" r="2.7" fill="#9f5542"/>
+    <circle class="on b2" cx="210.1" cy="184.2" r="2.7" fill="#954e41"/>
+    <circle class="on b2" cx="216.7" cy="184.2" r="2.7" fill="#6f322c"/>
+    <circle class="on b2" cx="223.3" cy="184.2" r="2.7" fill="#9b5541"/>
+    <circle class="on b2" cx="229.9" cy="184.2" r="2.7" fill="#9f5741"/>
+    <circle class="on b2" cx="236.5" cy="184.2" r="2.7" fill="#9c523e"/>
+    <circle class="on b2" cx="243.1" cy="184.2" r="2.7" fill="#8f483b"/>
+    <circle class="on b2" cx="249.7" cy="184.2" r="2.7" fill="#713534"/>
+    <circle class="on b2" cx="256.3" cy="184.2" r="2.7" fill="#692c2b"/>
+    <circle class="on b2" cx="262.9" cy="184.2" r="2.7" fill="#884438"/>
+    <circle class="on b2" cx="269.5" cy="184.2" r="2.7" fill="#8e4837"/>
+    <circle class="on b2" cx="276.1" cy="184.2" r="2.7" fill="#c56c52"/>
+    <circle class="on b2" cx="282.7" cy="184.2" r="2.7" fill="#b98b81"/>
+    <circle class="off" cx="309.1" cy="184.2" r="1"/>
+    <circle class="off" cx="25.3" cy="190.8" r="1"/>
+    <circle class="off" cx="64.9" cy="190.8" r="1"/>
+    <circle class="on b3" cx="78.1" cy="190.8" r="2.7" fill="#96584e"/>
+    <circle class="on b3" cx="84.7" cy="190.8" r="2.7" fill="#914b3b"/>
+    <circle class="on b3" cx="91.3" cy="190.8" r="2.7" fill="#984f3c"/>
+    <circle class="on b3" cx="97.9" cy="190.8" r="2.7" fill="#934b3a"/>
+    <circle class="on b3" cx="104.5" cy="190.8" r="2.7" fill="#763532"/>
+    <circle class="on b3" cx="111.1" cy="190.8" r="2.7" fill="#6e3234"/>
+    <circle class="on b3" cx="117.7" cy="190.8" r="2.7" fill="#d49d93"/>
+    <circle class="on b3" cx="124.3" cy="190.8" r="2.7" fill="#fed0bd"/>
+    <circle class="on b3" cx="130.9" cy="190.8" r="2.7" fill="#f7cab9"/>
+    <circle class="on b3" cx="137.5" cy="190.8" r="2.7" fill="#ab6155"/>
+    <circle class="on b3" cx="144.1" cy="190.8" r="2.7" fill="#a95e4e"/>
+    <circle class="on b3" cx="150.7" cy="190.8" r="2.7" fill="#8c473c"/>
+    <circle class="on b3" cx="157.3" cy="190.8" r="2.7" fill="#a95e4b"/>
+    <circle class="on b3" cx="163.9" cy="190.8" r="2.7" fill="#b3644c"/>
+    <circle class="on b3" cx="170.5" cy="190.8" r="2.7" fill="#b36152"/>
+    <circle class="on b3" cx="177.1" cy="190.8" r="2.7" fill="#f1b6aa"/>
+    <circle class="on b3" cx="183.7" cy="190.8" r="2.7" fill="#d1968d"/>
+    <circle class="on b3" cx="190.3" cy="190.8" r="2.7" fill="#92473f"/>
+    <circle class="on b3" cx="196.9" cy="190.8" r="2.7" fill="#964e42"/>
+    <circle class="on b3" cx="203.5" cy="190.8" r="2.7" fill="#a05745"/>
+    <circle class="on b3" cx="210.1" cy="190.8" r="2.7" fill="#9f5544"/>
+    <circle class="on b3" cx="216.7" cy="190.8" r="2.7" fill="#78342b"/>
+    <circle class="on b3" cx="223.3" cy="190.8" r="2.7" fill="#a05844"/>
+    <circle class="on b3" cx="229.9" cy="190.8" r="2.7" fill="#a25944"/>
+    <circle class="on b3" cx="236.5" cy="190.8" r="2.7" fill="#a55944"/>
+    <circle class="on b3" cx="243.1" cy="190.8" r="2.7" fill="#7c3731"/>
+    <circle class="on b3" cx="249.7" cy="190.8" r="2.7" fill="#6e3434"/>
+    <circle class="on b3" cx="256.3" cy="190.8" r="2.7" fill="#d9b8f0"/>
+    <circle class="on b3" cx="262.9" cy="190.8" r="2.7" fill="#894538"/>
+    <circle class="on b3" cx="269.5" cy="190.8" r="2.7" fill="#934c3a"/>
+    <circle class="on b3" cx="276.1" cy="190.8" r="2.7" fill="#bf6951"/>
+    <circle class="on b3" cx="282.7" cy="190.8" r="2.7" fill="#af8279"/>
+    <circle class="off" cx="302.5" cy="190.8" r="1"/>
+    <circle class="off" cx="58.3" cy="197.4" r="1"/>
+    <circle class="on b3" cx="78.1" cy="197.4" r="2.7" fill="#a36e62"/>
+    <circle class="on b3" cx="84.7" cy="197.4" r="2.7" fill="#934c3c"/>
+    <circle class="on b3" cx="91.3" cy="197.4" r="2.7" fill="#9b523e"/>
+    <circle class="on b3" cx="97.9" cy="197.4" r="2.7" fill="#924838"/>
+    <circle class="on b3" cx="104.5" cy="197.4" r="2.7" fill="#763531"/>
+    <circle class="on b3" cx="111.1" cy="197.4" r="2.7" fill="#bf8b83"/>
+    <circle class="on b3" cx="117.7" cy="197.4" r="2.7" fill="#fdcbb9"/>
+    <circle class="on b3" cx="124.3" cy="197.4" r="2.7" fill="#fdceba"/>
+    <circle class="on b3" cx="130.9" cy="197.4" r="2.7" fill="#fdd2c1"/>
+    <circle class="on b3" cx="137.5" cy="197.4" r="2.7" fill="#d8a99c"/>
+    <circle class="on b3" cx="144.1" cy="197.4" r="2.7" fill="#8c473b"/>
+    <circle class="on b3" cx="150.7" cy="197.4" r="2.7" fill="#91483b"/>
+    <circle class="on b3" cx="157.3" cy="197.4" r="2.7" fill="#a05549"/>
+    <circle class="on b3" cx="163.9" cy="197.4" r="2.7" fill="#b66451"/>
+    <circle class="on b3" cx="170.5" cy="197.4" r="2.7" fill="#9c4e3f"/>
+    <circle class="on b3" cx="177.1" cy="197.4" r="2.7" fill="#d0958c"/>
+    <circle class="on b3" cx="183.7" cy="197.4" r="2.7" fill="#fbcebf"/>
+    <circle class="on b3" cx="190.3" cy="197.4" r="2.7" fill="#e4b3a9"/>
+    <circle class="on b3" cx="196.9" cy="197.4" r="2.7" fill="#ab625e"/>
+    <circle class="on b3" cx="203.5" cy="197.4" r="2.7" fill="#7b3a35"/>
+    <circle class="on b3" cx="210.1" cy="197.4" r="2.7" fill="#964e42"/>
+    <circle class="on b3" cx="216.7" cy="197.4" r="2.7" fill="#813732"/>
+    <circle class="on b3" cx="223.3" cy="197.4" r="2.7" fill="#994f3c"/>
+    <circle class="on b3" cx="229.9" cy="197.4" r="2.7" fill="#a65b47"/>
+    <circle class="on b3" cx="236.5" cy="197.4" r="2.7" fill="#a55b47"/>
+    <circle class="on b3" cx="243.1" cy="197.4" r="2.7" fill="#783731"/>
+    <circle class="on b3" cx="249.7" cy="197.4" r="2.7" fill="#6f3435"/>
+    <circle class="on b3" cx="256.3" cy="197.4" r="2.7" fill="#652c2a"/>
+    <circle class="on b3" cx="262.9" cy="197.4" r="2.7" fill="#93493a"/>
+    <circle class="on b3" cx="269.5" cy="197.4" r="2.7" fill="#9c513c"/>
+    <circle class="on b3" cx="276.1" cy="197.4" r="2.7" fill="#a85e4b"/>
+    <circle class="on b3" cx="282.7" cy="197.4" r="2.7" fill="#784e48"/>
+    <circle class="off" cx="295.9" cy="197.4" r="1"/>
+    <circle class="off" cx="51.7" cy="204.0" r="1"/>
+    <circle class="on b3" cx="78.1" cy="204.0" r="2.7" fill="#935f57"/>
+    <circle class="on b3" cx="84.7" cy="204.0" r="2.7" fill="#9b523f"/>
+    <circle class="on b3" cx="91.3" cy="204.0" r="2.7" fill="#9c523f"/>
+    <circle class="on b3" cx="97.9" cy="204.0" r="2.7" fill="#8e4537"/>
+    <circle class="on b3" cx="104.5" cy="204.0" r="2.7" fill="#cba193"/>
+    <circle class="on b3" cx="111.1" cy="204.0" r="2.7" fill="#fed0bd"/>
+    <circle class="on b3" cx="117.7" cy="204.0" r="2.7" fill="#fdcdb8"/>
+    <circle class="on b3" cx="124.3" cy="204.0" r="2.7" fill="#fdcfbd"/>
+    <circle class="on b3" cx="130.9" cy="204.0" r="2.7" fill="#fdd3c2"/>
+    <circle class="on b3" cx="137.5" cy="204.0" r="2.7" fill="#feceba"/>
+    <circle class="on b3" cx="144.1" cy="204.0" r="2.7" fill="#bc9082"/>
+    <circle class="on b3" cx="150.7" cy="204.0" r="2.7" fill="#9b5144"/>
+    <circle class="on b3" cx="157.3" cy="204.0" r="2.7" fill="#d28c7f"/>
+    <circle class="on b3" cx="163.9" cy="204.0" r="2.7" fill="#ab655b"/>
+    <circle class="on b3" cx="170.5" cy="204.0" r="2.7" fill="#965147"/>
+    <circle class="on b3" cx="177.1" cy="204.0" r="2.7" fill="#d38b7f"/>
+    <circle class="on b3" cx="183.7" cy="204.0" r="2.7" fill="#fbd0c0"/>
+    <circle class="on b3" cx="190.3" cy="204.0" r="2.7" fill="#fad2c3"/>
+    <circle class="on b3" cx="196.9" cy="204.0" r="2.7" fill="#f9cdbf"/>
+    <circle class="on b3" cx="203.5" cy="204.0" r="2.7" fill="#b4847b"/>
+    <circle class="on b3" cx="210.1" cy="204.0" r="2.7" fill="#a36258"/>
+    <circle class="on b3" cx="216.7" cy="204.0" r="2.7" fill="#79342c"/>
+    <circle class="on b3" cx="223.3" cy="204.0" r="2.7" fill="#914835"/>
+    <circle class="on b3" cx="229.9" cy="204.0" r="2.7" fill="#a35e47"/>
+    <circle class="on b3" cx="236.5" cy="204.0" r="2.7" fill="#a35c47"/>
+    <circle class="on b3" cx="243.1" cy="204.0" r="2.7" fill="#853e32"/>
+    <circle class="on b3" cx="249.7" cy="204.0" r="2.7" fill="#743435"/>
+    <circle class="on b3" cx="256.3" cy="204.0" r="2.7" fill="#652c2a"/>
+    <circle class="on b3" cx="262.9" cy="204.0" r="2.7" fill="#954e3b"/>
+    <circle class="on b3" cx="269.5" cy="204.0" r="2.7" fill="#9c543c"/>
+    <circle class="on b3" cx="276.1" cy="204.0" r="2.7" fill="#9f5744"/>
+    <circle class="on b3" cx="282.7" cy="204.0" r="2.7" fill="#ae8c8b"/>
+    <circle class="off" cx="289.3" cy="204.0" r="1"/>
+    <circle class="off" cx="45.1" cy="210.6" r="1"/>
+    <circle class="on b3" cx="78.1" cy="210.6" r="2.7" fill="#9f6e65"/>
+    <circle class="on b3" cx="84.7" cy="210.6" r="2.7" fill="#a25744"/>
+    <circle class="on b3" cx="91.3" cy="210.6" r="2.7" fill="#9f5542"/>
+    <circle class="on b3" cx="97.9" cy="210.6" r="2.7" fill="#894734"/>
+    <circle class="on b3" cx="104.5" cy="210.6" r="2.7" fill="#d9b1a1"/>
+    <circle class="on b3" cx="111.1" cy="210.6" r="2.7" fill="#fdd2bf"/>
+    <circle class="on b3" cx="117.7" cy="210.6" r="2.7" fill="#f3cbba"/>
+    <circle class="on b3" cx="124.3" cy="210.6" r="2.7" fill="#6b5b52"/>
+    <circle class="on b3" cx="130.9" cy="210.6" r="2.7" fill="#9f857b"/>
+    <circle class="on b3" cx="137.5" cy="210.6" r="2.7" fill="#fdcebc"/>
+    <circle class="on b3" cx="144.1" cy="210.6" r="2.7" fill="#fdd1c0"/>
+    <circle class="on b3" cx="150.7" cy="210.6" r="2.7" fill="#ddbbad"/>
+    <circle class="on b3" cx="157.3" cy="210.6" r="2.7" fill="#a17b6f"/>
+    <circle class="on b3" cx="163.9" cy="210.6" r="2.7" fill="#f3c8b7"/>
+    <circle class="on b3" cx="170.5" cy="210.6" r="2.7" fill="#b0877c"/>
+    <circle class="on b3" cx="177.1" cy="210.6" r="2.7" fill="#d09b8c"/>
+    <circle class="on b3" cx="183.7" cy="210.6" r="2.7" fill="#d4b7aa"/>
+    <circle class="on b3" cx="190.3" cy="210.6" r="2.7" fill="#d9b8f0"/>
+    <circle class="on b3" cx="196.9" cy="210.6" r="2.7" fill="#b9a093"/>
+    <circle class="on b3" cx="203.5" cy="210.6" r="2.7" fill="#fdd1bf"/>
+    <circle class="on b3" cx="210.1" cy="210.6" r="2.7" fill="#fcd4c2"/>
+    <circle class="on b3" cx="216.7" cy="210.6" r="2.7" fill="#eec8b8"/>
+    <circle class="on b3" cx="223.3" cy="210.6" r="2.7" fill="#834434"/>
+    <circle class="on b3" cx="229.9" cy="210.6" r="2.7" fill="#a25c47"/>
+    <circle class="on b3" cx="236.5" cy="210.6" r="2.7" fill="#a55e48"/>
+    <circle class="on b3" cx="243.1" cy="210.6" r="2.7" fill="#8c4535"/>
+    <circle class="on b3" cx="249.7" cy="210.6" r="2.7" fill="#6f2c2a"/>
+    <circle class="on b3" cx="256.3" cy="210.6" r="2.7" fill="#6c312c"/>
+    <circle class="on b3" cx="262.9" cy="210.6" r="2.7" fill="#98513e"/>
+    <circle class="on b3" cx="269.5" cy="210.6" r="2.7" fill="#9f543e"/>
+    <circle class="on b3" cx="276.1" cy="210.6" r="2.7" fill="#9b513e"/>
+    <circle class="off" cx="282.7" cy="210.6" r="1"/>
+    <circle class="off" cx="322.3" cy="210.6" r="1"/>
+    <circle class="off" cx="38.5" cy="217.2" r="1"/>
+    <circle class="off" cx="78.1" cy="217.2" r="1"/>
+    <circle class="on b3" cx="84.7" cy="217.2" r="2.7" fill="#985441"/>
+    <circle class="on b3" cx="91.3" cy="217.2" r="2.7" fill="#a25845"/>
+    <circle class="on b3" cx="97.9" cy="217.2" r="2.7" fill="#9b523f"/>
+    <circle class="on b3" cx="104.5" cy="217.2" r="2.7" fill="#c2a094"/>
+    <circle class="on b3" cx="111.1" cy="217.2" r="2.7" fill="#fcd2c2"/>
+    <circle class="on b3" cx="117.7" cy="217.2" r="2.7" fill="#b1988d"/>
+    <circle class="on b3" cx="124.3" cy="217.2" r="2.7" fill="#d9b8f0"/>
+    <circle class="on b3" cx="130.9" cy="217.2" r="2.7" fill="#d9b8f0"/>
+    <circle class="on b3" cx="137.5" cy="217.2" r="2.7" fill="#e8c3b4"/>
+    <circle class="on b3" cx="144.1" cy="217.2" r="2.7" fill="#fdd4c3"/>
+    <circle class="on b3" cx="150.7" cy="217.2" r="2.7" fill="#fcd6c5"/>
+    <circle class="on b3" cx="157.3" cy="217.2" r="2.7" fill="#fcd2be"/>
+    <circle class="on b3" cx="163.9" cy="217.2" r="2.7" fill="#fdceba"/>
+    <circle class="on b3" cx="170.5" cy="217.2" r="2.7" fill="#fdd0bf"/>
+    <circle class="on b3" cx="177.1" cy="217.2" r="2.7" fill="#fdd7c6"/>
+    <circle class="on b3" cx="183.7" cy="217.2" r="2.7" fill="#86756d"/>
+    <circle class="on b3" cx="190.3" cy="217.2" r="2.7" fill="#d9b8f0"/>
+    <circle class="on b3" cx="196.9" cy="217.2" r="2.7" fill="#d9b8f0"/>
+    <circle class="on b3" cx="203.5" cy="217.2" r="2.7" fill="#fad2c0"/>
+    <circle class="on b3" cx="210.1" cy="217.2" r="2.7" fill="#fdd2bf"/>
+    <circle class="on b3" cx="216.7" cy="217.2" r="2.7" fill="#fbd1bf"/>
+    <circle class="on b3" cx="223.3" cy="217.2" r="2.7" fill="#8c483a"/>
+    <circle class="on b3" cx="229.9" cy="217.2" r="2.7" fill="#a65e48"/>
+    <circle class="on b3" cx="236.5" cy="217.2" r="2.7" fill="#a96149"/>
+    <circle class="on b3" cx="243.1" cy="217.2" r="2.7" fill="#924b3b"/>
+    <circle class="on b3" cx="249.7" cy="217.2" r="2.7" fill="#d5a397"/>
+    <circle class="on b3" cx="256.3" cy="217.2" r="2.7" fill="#965748"/>
+    <circle class="on b3" cx="262.9" cy="217.2" r="2.7" fill="#96513e"/>
+    <circle class="on b3" cx="269.5" cy="217.2" r="2.7" fill="#9e553e"/>
+    <circle class="on b3" cx="276.1" cy="217.2" r="2.7" fill="#995241"/>
+    <circle class="off" cx="315.7" cy="217.2" r="1"/>
+    <circle class="off" cx="31.9" cy="223.8" r="1"/>
+    <circle class="off" cx="71.5" cy="223.8" r="1"/>
+    <circle class="on b3" cx="84.7" cy="223.8" r="2.7" fill="#98513f"/>
+    <circle class="on b3" cx="91.3" cy="223.8" r="2.7" fill="#a85c48"/>
+    <circle class="on b3" cx="97.9" cy="223.8" r="2.7" fill="#ac614c"/>
+    <circle class="on b3" cx="104.5" cy="223.8" r="2.7" fill="#aa887d"/>
+    <circle class="on b3" cx="111.1" cy="223.8" r="2.7" fill="#fcd3c3"/>
+    <circle class="on b3" cx="117.7" cy="223.8" r="2.7" fill="#957e73"/>
+    <circle class="on b3" cx="124.3" cy="223.8" r="2.7" fill="#d9b8f0"/>
+    <circle class="on b3" cx="130.9" cy="223.8" r="2.7" fill="#d9b8f0"/>
+    <circle class="on b3" cx="137.5" cy="223.8" r="2.7" fill="#cbafa1"/>
+    <circle class="on b3" cx="144.1" cy="223.8" r="2.7" fill="#fcd5c4"/>
+    <circle class="on b3" cx="150.7" cy="223.8" r="2.7" fill="#fcd3c0"/>
+    <circle class="on b3" cx="157.3" cy="223.8" r="2.7" fill="#fdcfbc"/>
+    <circle class="on b3" cx="163.9" cy="223.8" r="2.7" fill="#fdcfbd"/>
+    <circle class="on b3" cx="170.5" cy="223.8" r="2.7" fill="#fecfbf"/>
+    <circle class="on b3" cx="177.1" cy="223.8" r="2.7" fill="#fdd2c2"/>
+    <circle class="on b3" cx="183.7" cy="223.8" r="2.7" fill="#99857f"/>
+    <circle class="on b3" cx="190.3" cy="223.8" r="2.7" fill="#d9b8f0"/>
+    <circle class="on b3" cx="196.9" cy="223.8" r="2.7" fill="#d9b8f0"/>
+    <circle class="on b3" cx="203.5" cy="223.8" r="2.7" fill="#edc9b7"/>
+    <circle class="on b3" cx="210.1" cy="223.8" r="2.7" fill="#fed2c0"/>
+    <circle class="on b3" cx="216.7" cy="223.8" r="2.7" fill="#f9cebc"/>
+    <circle class="on b3" cx="223.3" cy="223.8" r="2.7" fill="#834235"/>
+    <circle class="on b3" cx="229.9" cy="223.8" r="2.7" fill="#ae5f49"/>
+    <circle class="on b3" cx="236.5" cy="223.8" r="2.7" fill="#ae614b"/>
+    <circle class="on b3" cx="243.1" cy="223.8" r="2.7" fill="#8b473a"/>
+    <circle class="on b3" cx="249.7" cy="223.8" r="2.7" fill="#cd8a82"/>
+    <circle class="on b3" cx="256.3" cy="223.8" r="2.7" fill="#b88f82"/>
+    <circle class="on b3" cx="262.9" cy="223.8" r="2.7" fill="#984e3c"/>
+    <circle class="on b3" cx="269.5" cy="223.8" r="2.7" fill="#9b513c"/>
+    <circle class="on b3" cx="276.1" cy="223.8" r="2.7" fill="#a06154"/>
+    <circle class="off" cx="309.1" cy="223.8" r="1"/>
+    <circle class="off" cx="25.3" cy="230.4" r="1"/>
+    <circle class="off" cx="64.9" cy="230.4" r="1"/>
+    <circle class="on b4" cx="84.7" cy="230.4" r="2.7" fill="#a35748"/>
+    <circle class="on b4" cx="91.3" cy="230.4" r="2.7" fill="#af614c"/>
+    <circle class="on b4" cx="97.9" cy="230.4" r="2.7" fill="#b06252"/>
+    <circle class="on b4" cx="104.5" cy="230.4" r="2.7" fill="#9b776c"/>
+    <circle class="on b4" cx="111.1" cy="230.4" r="2.7" fill="#fcd1c0"/>
+    <circle class="on b4" cx="117.7" cy="230.4" r="2.7" fill="#c0998f"/>
+    <circle class="on b4" cx="124.3" cy="230.4" r="2.7" fill="#895766"/>
+    <circle class="on b4" cx="130.9" cy="230.4" r="2.7" fill="#955f6e"/>
+    <circle class="on b4" cx="137.5" cy="230.4" r="2.7" fill="#e8c3b4"/>
+    <circle class="on b4" cx="144.1" cy="230.4" r="2.7" fill="#fdd2bf"/>
+    <circle class="on b4" cx="150.7" cy="230.4" r="2.7" fill="#fdcfbc"/>
+    <circle class="on b4" cx="157.3" cy="230.4" r="2.7" fill="#fbcbb9"/>
+    <circle class="on b4" cx="163.9" cy="230.4" r="2.7" fill="#fdd0bd"/>
+    <circle class="on b4" cx="170.5" cy="230.4" r="2.7" fill="#fdd1c1"/>
+    <circle class="on b4" cx="177.1" cy="230.4" r="2.7" fill="#fed3c2"/>
+    <circle class="on b4" cx="183.7" cy="230.4" r="2.7" fill="#a7857f"/>
+    <circle class="on b4" cx="190.3" cy="230.4" r="2.7" fill="#824f64"/>
+    <circle class="on b4" cx="196.9" cy="230.4" r="2.7" fill="#935c6b"/>
+    <circle class="on b4" cx="203.5" cy="230.4" r="2.7" fill="#f8cfbe"/>
+    <circle class="on b4" cx="210.1" cy="230.4" r="2.7" fill="#fed3bf"/>
+    <circle class="on b4" cx="216.7" cy="230.4" r="2.7" fill="#e5bcac"/>
+    <circle class="on b4" cx="223.3" cy="230.4" r="2.7" fill="#8b473c"/>
+    <circle class="on b4" cx="229.9" cy="230.4" r="2.7" fill="#ab5c4c"/>
+    <circle class="on b4" cx="236.5" cy="230.4" r="2.7" fill="#b0614b"/>
+    <circle class="on b4" cx="243.1" cy="230.4" r="2.7" fill="#8e473f"/>
+    <circle class="on b4" cx="249.7" cy="230.4" r="2.7" fill="#bf7a74"/>
+    <circle class="on b4" cx="256.3" cy="230.4" r="2.7" fill="#c49a8e"/>
+    <circle class="on b4" cx="262.9" cy="230.4" r="2.7" fill="#9b4e3c"/>
+    <circle class="on b4" cx="269.5" cy="230.4" r="2.7" fill="#9e5141"/>
+    <circle class="on b4" cx="276.1" cy="230.4" r="2.7" fill="#a6746e"/>
+    <circle class="off" cx="302.5" cy="230.4" r="1"/>
+    <circle class="off" cx="58.3" cy="237.0" r="1"/>
+    <circle class="on b4" cx="78.1" cy="237.0" r="2.7" fill="#987672"/>
+    <circle class="on b4" cx="84.7" cy="237.0" r="2.7" fill="#b0625c"/>
+    <circle class="on b4" cx="91.3" cy="237.0" r="2.7" fill="#b26155"/>
+    <circle class="on b4" cx="97.9" cy="237.0" r="2.7" fill="#a95c54"/>
+    <circle class="on b4" cx="104.5" cy="237.0" r="2.7" fill="#ae887c"/>
+    <circle class="on b4" cx="111.1" cy="237.0" r="2.7" fill="#fac4b1"/>
+    <circle class="on b4" cx="117.7" cy="237.0" r="2.7" fill="#f5bdaa"/>
+    <circle class="on b4" cx="124.3" cy="237.0" r="2.7" fill="#a7807c"/>
+    <circle class="on b4" cx="130.9" cy="237.0" r="2.7" fill="#bb9b94"/>
+    <circle class="on b4" cx="137.5" cy="237.0" r="2.7" fill="#fbd8c5"/>
+    <circle class="on b4" cx="144.1" cy="237.0" r="2.7" fill="#fbd1bd"/>
+    <circle class="on b4" cx="150.7" cy="237.0" r="2.7" fill="#f8c2af"/>
+    <circle class="on b4" cx="157.3" cy="237.0" r="2.7" fill="#f6bcaa"/>
+    <circle class="on b4" cx="163.9" cy="237.0" r="2.7" fill="#fdd1bf"/>
+    <circle class="on b4" cx="170.5" cy="237.0" r="2.7" fill="#fdd4c5"/>
+    <circle class="on b4" cx="177.1" cy="237.0" r="2.7" fill="#fed4c3"/>
+    <circle class="on b4" cx="183.7" cy="237.0" r="2.7" fill="#f3c9ba"/>
+    <circle class="on b4" cx="190.3" cy="237.0" r="2.7" fill="#9a7373"/>
+    <circle class="on b4" cx="196.9" cy="237.0" r="2.7" fill="#c29892"/>
+    <circle class="on b4" cx="203.5" cy="237.0" r="2.7" fill="#f8c4b1"/>
+    <circle class="on b4" cx="210.1" cy="237.0" r="2.7" fill="#fccbb9"/>
+    <circle class="on b4" cx="216.7" cy="237.0" r="2.7" fill="#c19789"/>
+    <circle class="on b4" cx="223.3" cy="237.0" r="2.7" fill="#b2625c"/>
+    <circle class="on b4" cx="229.9" cy="237.0" r="2.7" fill="#a85b51"/>
+    <circle class="on b4" cx="236.5" cy="237.0" r="2.7" fill="#af5c4f"/>
+    <circle class="on b4" cx="243.1" cy="237.0" r="2.7" fill="#954745"/>
+    <circle class="on b4" cx="249.7" cy="237.0" r="2.7" fill="#ca8c83"/>
+    <circle class="on b4" cx="256.3" cy="237.0" r="2.7" fill="#cd887b"/>
+    <circle class="on b4" cx="262.9" cy="237.0" r="2.7" fill="#a65547"/>
+    <circle class="on b4" cx="269.5" cy="237.0" r="2.7" fill="#a55745"/>
+    <circle class="on b4" cx="276.1" cy="237.0" r="2.7" fill="#b68682"/>
+    <circle class="off" cx="295.9" cy="237.0" r="1"/>
+    <circle class="off" cx="51.7" cy="243.6" r="1"/>
+    <circle class="on b4" cx="78.1" cy="243.6" r="2.7" fill="#926566"/>
+    <circle class="on b4" cx="84.7" cy="243.6" r="2.7" fill="#b26466"/>
+    <circle class="on b4" cx="91.3" cy="243.6" r="2.7" fill="#b3625c"/>
+    <circle class="on b4" cx="97.9" cy="243.6" r="2.7" fill="#9c524c"/>
+    <circle class="on b4" cx="104.5" cy="243.6" r="2.7" fill="#c7978a"/>
+    <circle class="on b4" cx="111.1" cy="243.6" r="2.7" fill="#f2a696"/>
+    <circle class="on b4" cx="117.7" cy="243.6" r="2.7" fill="#f3ae9d"/>
+    <circle class="on b4" cx="124.3" cy="243.6" r="2.7" fill="#f0b4a2"/>
+    <circle class="on b4" cx="130.9" cy="243.6" r="2.7" fill="#fad4c2"/>
+    <circle class="on b4" cx="137.5" cy="243.6" r="2.7" fill="#fbd7c4"/>
+    <circle class="on b4" cx="144.1" cy="243.6" r="2.7" fill="#fdcfbc"/>
+    <circle class="on b4" cx="150.7" cy="243.6" r="2.7" fill="#fccfbb"/>
+    <circle class="on b4" cx="157.3" cy="243.6" r="2.7" fill="#fdd0be"/>
+    <circle class="on b4" cx="163.9" cy="243.6" r="2.7" fill="#fcd4c4"/>
+    <circle class="on b4" cx="170.5" cy="243.6" r="2.7" fill="#fdd9c8"/>
+    <circle class="on b4" cx="177.1" cy="243.6" r="2.7" fill="#fdd5c3"/>
+    <circle class="on b4" cx="183.7" cy="243.6" r="2.7" fill="#fdd3c1"/>
+    <circle class="on b4" cx="190.3" cy="243.6" r="2.7" fill="#f7c4b2"/>
+    <circle class="on b4" cx="196.9" cy="243.6" r="2.7" fill="#f4b3a2"/>
+    <circle class="on b4" cx="203.5" cy="243.6" r="2.7" fill="#f4b29f"/>
+    <circle class="on b4" cx="210.1" cy="243.6" r="2.7" fill="#f3ab9a"/>
+    <circle class="on b4" cx="216.7" cy="243.6" r="2.7" fill="#dd938c"/>
+    <circle class="on b4" cx="223.3" cy="243.6" r="2.7" fill="#bd6466"/>
+    <circle class="on b4" cx="229.9" cy="243.6" r="2.7" fill="#ab5b59"/>
+    <circle class="on b4" cx="236.5" cy="243.6" r="2.7" fill="#ab5b59"/>
+    <circle class="on b4" cx="243.1" cy="243.6" r="2.7" fill="#8e3f44"/>
+    <circle class="on b4" cx="249.7" cy="243.6" r="2.7" fill="#ad7e76"/>
+    <circle class="on b4" cx="256.3" cy="243.6" r="2.7" fill="#813e37"/>
+    <circle class="on b4" cx="262.9" cy="243.6" r="2.7" fill="#9f524b"/>
+    <circle class="on b4" cx="269.5" cy="243.6" r="2.7" fill="#af5b4c"/>
+    <circle class="on b4" cx="276.1" cy="243.6" r="2.7" fill="#c08983"/>
+    <circle class="off" cx="289.3" cy="243.6" r="1"/>
+    <circle class="off" cx="45.1" cy="250.2" r="1"/>
+    <circle class="on b4" cx="78.1" cy="250.2" r="2.7" fill="#b27176"/>
+    <circle class="on b4" cx="84.7" cy="250.2" r="2.7" fill="#ae5b65"/>
+    <circle class="on b4" cx="91.3" cy="250.2" r="2.7" fill="#ae5c65"/>
+    <circle class="on b4" cx="97.9" cy="250.2" r="2.7" fill="#8c474b"/>
+    <circle class="on b4" cx="104.5" cy="250.2" r="2.7" fill="#d5a99a"/>
+    <circle class="on b4" cx="111.1" cy="250.2" r="2.7" fill="#f6b7a6"/>
+    <circle class="on b4" cx="117.7" cy="250.2" r="2.7" fill="#f5c2b1"/>
+    <circle class="on b4" cx="124.3" cy="250.2" r="2.7" fill="#f7cdba"/>
+    <circle class="on b4" cx="130.9" cy="250.2" r="2.7" fill="#fcd4c0"/>
+    <circle class="on b4" cx="137.5" cy="250.2" r="2.7" fill="#fcd3c1"/>
+    <circle class="on b4" cx="144.1" cy="250.2" r="2.7" fill="#bf9587"/>
+    <circle class="on b4" cx="150.7" cy="250.2" r="2.7" fill="#fcd0bf"/>
+    <circle class="on b4" cx="157.3" cy="250.2" r="2.7" fill="#b1897f"/>
+    <circle class="on b4" cx="163.9" cy="250.2" r="2.7" fill="#fad8ca"/>
+    <circle class="on b4" cx="170.5" cy="250.2" r="2.7" fill="#bc9a8d"/>
+    <circle class="on b4" cx="177.1" cy="250.2" r="2.7" fill="#fdd1c1"/>
+    <circle class="on b4" cx="183.7" cy="250.2" r="2.7" fill="#fed1bf"/>
+    <circle class="on b4" cx="190.3" cy="250.2" r="2.7" fill="#fccfbd"/>
+    <circle class="on b4" cx="196.9" cy="250.2" r="2.7" fill="#f6bdaa"/>
+    <circle class="on b4" cx="203.5" cy="250.2" r="2.7" fill="#f6beae"/>
+    <circle class="on b4" cx="210.1" cy="250.2" r="2.7" fill="#f5c4b6"/>
+    <circle class="on b4" cx="216.7" cy="250.2" r="2.7" fill="#a3585f"/>
+    <circle class="on b4" cx="223.3" cy="250.2" r="2.7" fill="#ae5965"/>
+    <circle class="on b4" cx="229.9" cy="250.2" r="2.7" fill="#b05b64"/>
+    <circle class="on b4" cx="236.5" cy="250.2" r="2.7" fill="#a85864"/>
+    <circle class="on b4" cx="243.1" cy="250.2" r="2.7" fill="#7f3742"/>
+    <circle class="on b4" cx="249.7" cy="250.2" r="2.7" fill="#823b35"/>
+    <circle class="on b4" cx="256.3" cy="250.2" r="2.7" fill="#994e4b"/>
+    <circle class="on b4" cx="262.9" cy="250.2" r="2.7" fill="#9f5251"/>
+    <circle class="on b4" cx="269.5" cy="250.2" r="2.7" fill="#ab5b55"/>
+    <circle class="on b4" cx="276.1" cy="250.2" r="2.7" fill="#ac6b68"/>
+    <circle class="off" cx="282.7" cy="250.2" r="1"/>
+    <circle class="off" cx="322.3" cy="250.2" r="1"/>
+    <circle class="off" cx="38.5" cy="256.8" r="1"/>
+    <circle class="on b4" cx="71.5" cy="256.8" r="2.7" fill="#b9989c"/>
+    <circle class="on b4" cx="78.1" cy="256.8" r="2.7" fill="#bf6b82"/>
+    <circle class="on b4" cx="84.7" cy="256.8" r="2.7" fill="#b05c6f"/>
+    <circle class="on b4" cx="91.3" cy="256.8" r="2.7" fill="#ac5b6e"/>
+    <circle class="on b4" cx="97.9" cy="256.8" r="2.7" fill="#8b4754"/>
+    <circle class="on b4" cx="104.5" cy="256.8" r="2.7" fill="#b59287"/>
+    <circle class="on b4" cx="111.1" cy="256.8" r="2.7" fill="#fbd1c0"/>
+    <circle class="on b4" cx="117.7" cy="256.8" r="2.7" fill="#fcd6c5"/>
+    <circle class="on b4" cx="124.3" cy="256.8" r="2.7" fill="#fcd7c4"/>
+    <circle class="on b4" cx="130.9" cy="256.8" r="2.7" fill="#fcd4c1"/>
+    <circle class="on b4" cx="137.5" cy="256.8" r="2.7" fill="#fdcfbe"/>
+    <circle class="on b4" cx="144.1" cy="256.8" r="2.7" fill="#d8ab9c"/>
+    <circle class="on b4" cx="150.7" cy="256.8" r="2.7" fill="#9b746b"/>
+    <circle class="on b4" cx="157.3" cy="256.8" r="2.7" fill="#b99289"/>
+    <circle class="on b4" cx="163.9" cy="256.8" r="2.7" fill="#9c736b"/>
+    <circle class="on b4" cx="170.5" cy="256.8" r="2.7" fill="#cda293"/>
+    <circle class="on b4" cx="177.1" cy="256.8" r="2.7" fill="#fdd2c0"/>
+    <circle class="on b4" cx="183.7" cy="256.8" r="2.7" fill="#fdd4c3"/>
+    <circle class="on b4" cx="190.3" cy="256.8" r="2.7" fill="#fdd4c3"/>
+    <circle class="on b4" cx="196.9" cy="256.8" r="2.7" fill="#fdd2c1"/>
+    <circle class="on b4" cx="203.5" cy="256.8" r="2.7" fill="#fdd1c1"/>
+    <circle class="on b4" cx="210.1" cy="256.8" r="2.7" fill="#b98b83"/>
+    <circle class="on b4" cx="216.7" cy="256.8" r="2.7" fill="#b95c72"/>
+    <circle class="on b4" cx="223.3" cy="256.8" r="2.7" fill="#a95b6c"/>
+    <circle class="on b4" cx="229.9" cy="256.8" r="2.7" fill="#ae5c6b"/>
+    <circle class="on b4" cx="236.5" cy="256.8" r="2.7" fill="#a5526b"/>
+    <circle class="on b4" cx="243.1" cy="256.8" r="2.7" fill="#6f2e41"/>
+    <circle class="on b4" cx="249.7" cy="256.8" r="2.7" fill="#834141"/>
+    <circle class="on b4" cx="256.3" cy="256.8" r="2.7" fill="#9f5151"/>
+    <circle class="on b4" cx="262.9" cy="256.8" r="2.7" fill="#a35558"/>
+    <circle class="on b4" cx="269.5" cy="256.8" r="2.7" fill="#a6595c"/>
+    <circle class="on b4" cx="276.1" cy="256.8" r="2.7" fill="#a8585e"/>
+    <circle class="off" cx="315.7" cy="256.8" r="1"/>
+    <circle class="off" cx="31.9" cy="263.4" r="1"/>
+    <circle class="on b4" cx="71.5" cy="263.4" r="2.7" fill="#91596c"/>
+    <circle class="on b4" cx="78.1" cy="263.4" r="2.7" fill="#c66e92"/>
+    <circle class="on b4" cx="84.7" cy="263.4" r="2.7" fill="#b25e7b"/>
+    <circle class="on b4" cx="91.3" cy="263.4" r="2.7" fill="#ac5e76"/>
+    <circle class="on b4" cx="97.9" cy="263.4" r="2.7" fill="#8f495b"/>
+    <circle class="on b4" cx="104.5" cy="263.4" r="2.7" fill="#a9716b"/>
+    <circle class="on b4" cx="111.1" cy="263.4" r="2.7" fill="#fbdbcb"/>
+    <circle class="on b4" cx="117.7" cy="263.4" r="2.7" fill="#fcd4c3"/>
+    <circle class="on b4" cx="124.3" cy="263.4" r="2.7" fill="#fcd3c1"/>
+    <circle class="on b4" cx="130.9" cy="263.4" r="2.7" fill="#fdd1bf"/>
+    <circle class="on b4" cx="137.5" cy="263.4" r="2.7" fill="#fdd0bf"/>
+    <circle class="on b4" cx="144.1" cy="263.4" r="2.7" fill="#fdd2c1"/>
+    <circle class="on b4" cx="150.7" cy="263.4" r="2.7" fill="#fdd6c7"/>
+    <circle class="on b4" cx="157.3" cy="263.4" r="2.7" fill="#fdd4c4"/>
+    <circle class="on b4" cx="163.9" cy="263.4" r="2.7" fill="#fecfbe"/>
+    <circle class="on b4" cx="170.5" cy="263.4" r="2.7" fill="#fecfbc"/>
+    <circle class="on b4" cx="177.1" cy="263.4" r="2.7" fill="#fdd3c1"/>
+    <circle class="on b4" cx="183.7" cy="263.4" r="2.7" fill="#fdd4c4"/>
+    <circle class="on b4" cx="190.3" cy="263.4" r="2.7" fill="#fcd5c4"/>
+    <circle class="on b4" cx="196.9" cy="263.4" r="2.7" fill="#fdd1c0"/>
+    <circle class="on b4" cx="203.5" cy="263.4" r="2.7" fill="#f4c7b8"/>
+    <circle class="on b4" cx="210.1" cy="263.4" r="2.7" fill="#ae5765"/>
+    <circle class="on b4" cx="216.7" cy="263.4" r="2.7" fill="#c56485"/>
+    <circle class="on b4" cx="223.3" cy="263.4" r="2.7" fill="#b05c76"/>
+    <circle class="on b4" cx="229.9" cy="263.4" r="2.7" fill="#ae5c75"/>
+    <circle class="on b4" cx="236.5" cy="263.4" r="2.7" fill="#9c4c71"/>
+    <circle class="on b4" cx="243.1" cy="263.4" r="2.7" fill="#712e3f"/>
+    <circle class="on b4" cx="249.7" cy="263.4" r="2.7" fill="#81414b"/>
+    <circle class="on b4" cx="256.3" cy="263.4" r="2.7" fill="#a25158"/>
+    <circle class="on b4" cx="262.9" cy="263.4" r="2.7" fill="#ac5862"/>
+    <circle class="on b4" cx="269.5" cy="263.4" r="2.7" fill="#a95868"/>
+    <circle class="on b4" cx="276.1" cy="263.4" r="2.7" fill="#b66476"/>
+    <circle class="on b4" cx="282.7" cy="263.4" r="2.7" fill="#82575b"/>
+    <circle class="off" cx="309.1" cy="263.4" r="1"/>
+    <circle class="off" cx="25.3" cy="270.0" r="1"/>
+    <circle class="off" cx="64.9" cy="270.0" r="1"/>
+    <circle class="on b5" cx="71.5" cy="270.0" r="2.7" fill="#a85985"/>
+    <circle class="on b5" cx="78.1" cy="270.0" r="2.7" fill="#a85886"/>
+    <circle class="on b5" cx="84.7" cy="270.0" r="2.7" fill="#b05c86"/>
+    <circle class="on b5" cx="91.3" cy="270.0" r="2.7" fill="#b05e82"/>
+    <circle class="on b5" cx="97.9" cy="270.0" r="2.7" fill="#92455f"/>
+    <circle class="on b5" cx="104.5" cy="270.0" r="2.7" fill="#8f4552"/>
+    <circle class="on b5" cx="111.1" cy="270.0" r="2.7" fill="#bea399"/>
+    <circle class="on b5" cx="117.7" cy="270.0" r="2.7" fill="#fbd6c6"/>
+    <circle class="on b5" cx="124.3" cy="270.0" r="2.7" fill="#fdcfbf"/>
+    <circle class="on b5" cx="130.9" cy="270.0" r="2.7" fill="#fdcfbe"/>
+    <circle class="on b5" cx="137.5" cy="270.0" r="2.7" fill="#fdd0bf"/>
+    <circle class="on b5" cx="144.1" cy="270.0" r="2.7" fill="#fcd3c3"/>
+    <circle class="on b5" cx="150.7" cy="270.0" r="2.7" fill="#fdd4c4"/>
+    <circle class="on b5" cx="157.3" cy="270.0" r="2.7" fill="#fdd4c3"/>
+    <circle class="on b5" cx="163.9" cy="270.0" r="2.7" fill="#fdd0bf"/>
+    <circle class="on b5" cx="170.5" cy="270.0" r="2.7" fill="#fecfbf"/>
+    <circle class="on b5" cx="177.1" cy="270.0" r="2.7" fill="#fdd1c0"/>
+    <circle class="on b5" cx="183.7" cy="270.0" r="2.7" fill="#fcd4c3"/>
+    <circle class="on b5" cx="190.3" cy="270.0" r="2.7" fill="#fbd5c5"/>
+    <circle class="on b5" cx="196.9" cy="270.0" r="2.7" fill="#fdd3c5"/>
+    <circle class="on b5" cx="203.5" cy="270.0" r="2.7" fill="#a06d6a"/>
+    <circle class="on b5" cx="210.1" cy="270.0" r="2.7" fill="#bd6189"/>
+    <circle class="on b5" cx="216.7" cy="270.0" r="2.7" fill="#b85f88"/>
+    <circle class="on b5" cx="223.3" cy="270.0" r="2.7" fill="#b55f85"/>
+    <circle class="on b5" cx="229.9" cy="270.0" r="2.7" fill="#ab5981"/>
+    <circle class="on b5" cx="236.5" cy="270.0" r="2.7" fill="#7f3761"/>
+    <circle class="on b5" cx="243.1" cy="270.0" r="2.7" fill="#7b3444"/>
+    <circle class="on b5" cx="249.7" cy="270.0" r="2.7" fill="#884454"/>
+    <circle class="on b5" cx="256.3" cy="270.0" r="2.7" fill="#9f5262"/>
+    <circle class="on b5" cx="262.9" cy="270.0" r="2.7" fill="#af5b71"/>
+    <circle class="on b5" cx="269.5" cy="270.0" r="2.7" fill="#ac5b74"/>
+    <circle class="on b5" cx="276.1" cy="270.0" r="2.7" fill="#af5f79"/>
+    <circle class="on b5" cx="282.7" cy="270.0" r="2.7" fill="#a66f7b"/>
+    <circle class="off" cx="302.5" cy="270.0" r="1"/>
+    <circle class="off" cx="58.3" cy="276.6" r="1"/>
+    <circle class="on b5" cx="64.9" cy="276.6" r="2.7" fill="#9c647f"/>
+    <circle class="on b5" cx="71.5" cy="276.6" r="2.7" fill="#c668b0"/>
+    <circle class="on b5" cx="78.1" cy="276.6" r="2.7" fill="#8f4471"/>
+    <circle class="on b5" cx="84.7" cy="276.6" r="2.7" fill="#b05c8f"/>
+    <circle class="on b5" cx="91.3" cy="276.6" r="2.7" fill="#b8618e"/>
+    <circle class="on b5" cx="97.9" cy="276.6" r="2.7" fill="#98476b"/>
+    <circle class="on b5" cx="104.5" cy="276.6" r="2.7" fill="#9b4c6c"/>
+    <circle class="on b5" cx="111.1" cy="276.6" r="2.7" fill="#8c484c"/>
+    <circle class="on b5" cx="117.7" cy="276.6" r="2.7" fill="#c4a499"/>
+    <circle class="on b5" cx="124.3" cy="276.6" r="2.7" fill="#fbcfbd"/>
+    <circle class="on b5" cx="130.9" cy="276.6" r="2.7" fill="#fccebd"/>
+    <circle class="on b5" cx="137.5" cy="276.6" r="2.7" fill="#fcd3c3"/>
+    <circle class="on b5" cx="144.1" cy="276.6" r="2.7" fill="#fcd5c5"/>
+    <circle class="on b5" cx="150.7" cy="276.6" r="2.7" fill="#fbd5c3"/>
+    <circle class="on b5" cx="157.3" cy="276.6" r="2.7" fill="#fcd4c4"/>
+    <circle class="on b5" cx="163.9" cy="276.6" r="2.7" fill="#fdd2c1"/>
+    <circle class="on b5" cx="170.5" cy="276.6" r="2.7" fill="#fdd2c0"/>
+    <circle class="on b5" cx="177.1" cy="276.6" r="2.7" fill="#fcd1c0"/>
+    <circle class="on b5" cx="183.7" cy="276.6" r="2.7" fill="#fdd1c0"/>
+    <circle class="on b5" cx="190.3" cy="276.6" r="2.7" fill="#fdd3c4"/>
+    <circle class="on b5" cx="196.9" cy="276.6" r="2.7" fill="#eeb7af"/>
+    <circle class="on b5" cx="203.5" cy="276.6" r="2.7" fill="#b65871"/>
+    <circle class="on b5" cx="210.1" cy="276.6" r="2.7" fill="#af5b8c"/>
+    <circle class="on b5" cx="216.7" cy="276.6" r="2.7" fill="#b35f8f"/>
+    <circle class="on b5" cx="223.3" cy="276.6" r="2.7" fill="#b86191"/>
+    <circle class="on b5" cx="229.9" cy="276.6" r="2.7" fill="#a65189"/>
+    <circle class="on b5" cx="236.5" cy="276.6" r="2.7" fill="#6b2b49"/>
+    <circle class="on b5" cx="243.1" cy="276.6" r="2.7" fill="#7f3f54"/>
+    <circle class="on b5" cx="249.7" cy="276.6" r="2.7" fill="#91455c"/>
+    <circle class="on b5" cx="256.3" cy="276.6" r="2.7" fill="#9c516b"/>
+    <circle class="on b5" cx="262.9" cy="276.6" r="2.7" fill="#ae5c7c"/>
+    <circle class="on b5" cx="269.5" cy="276.6" r="2.7" fill="#ae5e7f"/>
+    <circle class="on b5" cx="276.1" cy="276.6" r="2.7" fill="#a95b7f"/>
+    <circle class="on b5" cx="282.7" cy="276.6" r="2.7" fill="#ac5c79"/>
+    <circle class="off" cx="295.9" cy="276.6" r="1"/>
+    <circle class="off" cx="51.7" cy="283.2" r="1"/>
+    <circle class="on b5" cx="64.9" cy="283.2" r="2.7" fill="#a05c85"/>
+    <circle class="on b5" cx="71.5" cy="283.2" r="2.7" fill="#b95ba6"/>
+    <circle class="on b5" cx="78.1" cy="283.2" r="2.7" fill="#823a64"/>
+    <circle class="on b5" cx="84.7" cy="283.2" r="2.7" fill="#b05e9b"/>
+    <circle class="on b5" cx="91.3" cy="283.2" r="2.7" fill="#b9629f"/>
+    <circle class="on b5" cx="97.9" cy="283.2" r="2.7" fill="#99477b"/>
+    <circle class="on b5" cx="104.5" cy="283.2" r="2.7" fill="#994878"/>
+    <circle class="on b5" cx="111.1" cy="283.2" r="2.7" fill="#863b52"/>
+    <circle class="on b5" cx="117.7" cy="283.2" r="2.7" fill="#723448"/>
+    <circle class="on b5" cx="124.3" cy="283.2" r="2.7" fill="#b37c7b"/>
+    <circle class="on b5" cx="130.9" cy="283.2" r="2.7" fill="#d3afa5"/>
+    <circle class="on b5" cx="137.5" cy="283.2" r="2.7" fill="#fcd8ca"/>
+    <circle class="on b5" cx="144.1" cy="283.2" r="2.7" fill="#fcd6c7"/>
+    <circle class="on b5" cx="150.7" cy="283.2" r="2.7" fill="#fdd1bf"/>
+    <circle class="on b5" cx="157.3" cy="283.2" r="2.7" fill="#fdd1bf"/>
+    <circle class="on b5" cx="163.9" cy="283.2" r="2.7" fill="#fdd5c4"/>
+    <circle class="on b5" cx="170.5" cy="283.2" r="2.7" fill="#fdd6c5"/>
+    <circle class="on b5" cx="177.1" cy="283.2" r="2.7" fill="#fdd1c2"/>
+    <circle class="on b5" cx="183.7" cy="283.2" r="2.7" fill="#f2b6ac"/>
+    <circle class="on b5" cx="190.3" cy="283.2" r="2.7" fill="#d18f8d"/>
+    <circle class="on b5" cx="196.9" cy="283.2" r="2.7" fill="#d87e7f"/>
+    <circle class="on b5" cx="203.5" cy="283.2" r="2.7" fill="#c65c91"/>
+    <circle class="on b5" cx="210.1" cy="283.2" r="2.7" fill="#ae5995"/>
+    <circle class="on b5" cx="216.7" cy="283.2" r="2.7" fill="#b35f98"/>
+    <circle class="on b5" cx="223.3" cy="283.2" r="2.7" fill="#b66199"/>
+    <circle class="on b5" cx="229.9" cy="283.2" r="2.7" fill="#99427f"/>
+    <circle class="on b5" cx="236.5" cy="283.2" r="2.7" fill="#76324e"/>
+    <circle class="on b5" cx="243.1" cy="283.2" r="2.7" fill="#823f5e"/>
+    <circle class="on b5" cx="249.7" cy="283.2" r="2.7" fill="#924b69"/>
+    <circle class="on b5" cx="256.3" cy="283.2" r="2.7" fill="#964e6f"/>
+    <circle class="on b5" cx="262.9" cy="283.2" r="2.7" fill="#ae5e85"/>
+    <circle class="on b5" cx="269.5" cy="283.2" r="2.7" fill="#ae5f88"/>
+    <circle class="on b5" cx="276.1" cy="283.2" r="2.7" fill="#b3618b"/>
+    <circle class="on b5" cx="282.7" cy="283.2" r="2.7" fill="#cd6fa2"/>
+    <circle class="on b5" cx="289.3" cy="283.2" r="2.7" fill="#9f687b"/>
+    <circle class="off" cx="45.1" cy="289.8" r="1"/>
+    <circle class="on b5" cx="64.9" cy="289.8" r="2.7" fill="#af759b"/>
+    <circle class="on b5" cx="71.5" cy="289.8" r="2.7" fill="#8e447f"/>
+    <circle class="on b5" cx="78.1" cy="289.8" r="2.7" fill="#8f5476"/>
+    <circle class="on b5" cx="84.7" cy="289.8" r="2.7" fill="#b25ea8"/>
+    <circle class="on b5" cx="91.3" cy="289.8" r="2.7" fill="#b961ae"/>
+    <circle class="on b5" cx="97.9" cy="289.8" r="2.7" fill="#a34c96"/>
+    <circle class="on b5" cx="104.5" cy="289.8" r="2.7" fill="#984783"/>
+    <circle class="on b5" cx="111.1" cy="289.8" r="2.7" fill="#763251"/>
+    <circle class="on b5" cx="117.7" cy="289.8" r="2.7" fill="#823e68"/>
+    <circle class="on b5" cx="124.3" cy="289.8" r="2.7" fill="#833e66"/>
+    <circle class="on b5" cx="130.9" cy="289.8" r="2.7" fill="#85385c"/>
+    <circle class="on b5" cx="137.5" cy="289.8" r="2.7" fill="#954e64"/>
+    <circle class="on b5" cx="144.1" cy="289.8" r="2.7" fill="#b87981"/>
+    <circle class="on b5" cx="150.7" cy="289.8" r="2.7" fill="#c98c89"/>
+    <circle class="on b5" cx="157.3" cy="289.8" r="2.7" fill="#9f7068"/>
+    <circle class="on b5" cx="163.9" cy="289.8" r="2.7" fill="#af7e75"/>
+    <circle class="on b5" cx="170.5" cy="289.8" r="2.7" fill="#b07b74"/>
+    <circle class="on b5" cx="177.1" cy="289.8" r="2.7" fill="#a96765"/>
+    <circle class="on b5" cx="183.7" cy="289.8" r="2.7" fill="#934951"/>
+    <circle class="on b5" cx="190.3" cy="289.8" r="2.7" fill="#753549"/>
+    <circle class="on b5" cx="196.9" cy="289.8" r="2.7" fill="#7b3249"/>
+    <circle class="on b5" cx="203.5" cy="289.8" r="2.7" fill="#c25ea0"/>
+    <circle class="on b5" cx="210.1" cy="289.8" r="2.7" fill="#bc64a8"/>
+    <circle class="on b5" cx="216.7" cy="289.8" r="2.7" fill="#b861a2"/>
+    <circle class="on b5" cx="223.3" cy="289.8" r="2.7" fill="#a65598"/>
+    <circle class="on b5" cx="229.9" cy="289.8" r="2.7" fill="#782f58"/>
+    <circle class="on b5" cx="236.5" cy="289.8" r="2.7" fill="#8c416b"/>
+    <circle class="on b5" cx="243.1" cy="289.8" r="2.7" fill="#883f6b"/>
+    <circle class="on b5" cx="249.7" cy="289.8" r="2.7" fill="#954c79"/>
+    <circle class="on b5" cx="256.3" cy="289.8" r="2.7" fill="#914976"/>
+    <circle class="on b5" cx="262.9" cy="289.8" r="2.7" fill="#b26291"/>
+    <circle class="on b5" cx="269.5" cy="289.8" r="2.7" fill="#af5f95"/>
+    <circle class="on b5" cx="276.1" cy="289.8" r="2.7" fill="#b8619b"/>
+    <circle class="on b5" cx="282.7" cy="289.8" r="2.7" fill="#c064a2"/>
+    <circle class="on b5" cx="289.3" cy="289.8" r="2.7" fill="#ab5589"/>
+    <circle class="off" cx="322.3" cy="289.8" r="1"/>
+    <circle class="off" cx="38.5" cy="296.4" r="1"/>
+    <circle class="on b5" cx="64.9" cy="296.4" r="2.7" fill="#925c7b"/>
+    <circle class="on b5" cx="71.5" cy="296.4" r="2.7" fill="#8e4782"/>
+    <circle class="on b5" cx="78.1" cy="296.4" r="2.7" fill="#a9798e"/>
+    <circle class="on b5" cx="84.7" cy="296.4" r="2.7" fill="#b861b3"/>
+    <circle class="on b5" cx="91.3" cy="296.4" r="2.7" fill="#b862b5"/>
+    <circle class="on b5" cx="97.9" cy="296.4" r="2.7" fill="#b25cb0"/>
+    <circle class="on b5" cx="104.5" cy="296.4" r="2.7" fill="#8f4289"/>
+    <circle class="on b5" cx="111.1" cy="296.4" r="2.7" fill="#6e3152"/>
+    <circle class="on b5" cx="117.7" cy="296.4" r="2.7" fill="#883f71"/>
+    <circle class="on b5" cx="124.3" cy="296.4" r="2.7" fill="#914178"/>
+    <circle class="on b5" cx="130.9" cy="296.4" r="2.7" fill="#91417b"/>
+    <circle class="on b5" cx="137.5" cy="296.4" r="2.7" fill="#8f4279"/>
+    <circle class="on b5" cx="144.1" cy="296.4" r="2.7" fill="#884276"/>
+    <circle class="on b5" cx="150.7" cy="296.4" r="2.7" fill="#694f6c"/>
+    <circle class="on b5" cx="157.3" cy="296.4" r="2.7" fill="#d58389"/>
+    <circle class="on b5" cx="163.9" cy="296.4" r="2.7" fill="#e79392"/>
+    <circle class="on b5" cx="170.5" cy="296.4" r="2.7" fill="#e8a39f"/>
+    <circle class="on b5" cx="177.1" cy="296.4" r="2.7" fill="#e8a9a4"/>
+    <circle class="on b5" cx="183.7" cy="296.4" r="2.7" fill="#b39ca6"/>
+    <circle class="on b5" cx="190.3" cy="296.4" r="2.7" fill="#7b6981"/>
+    <circle class="on b5" cx="196.9" cy="296.4" r="2.7" fill="#7f3b58"/>
+    <circle class="on b5" cx="203.5" cy="296.4" r="2.7" fill="#b657a0"/>
+    <circle class="on b5" cx="210.1" cy="296.4" r="2.7" fill="#bb64af"/>
+    <circle class="on b5" cx="216.7" cy="296.4" r="2.7" fill="#b561a9"/>
+    <circle class="on b5" cx="223.3" cy="296.4" r="2.7" fill="#a8549c"/>
+    <circle class="on b5" cx="229.9" cy="296.4" r="2.7" fill="#743158"/>
+    <circle class="on b5" cx="236.5" cy="296.4" r="2.7" fill="#864275"/>
+    <circle class="on b5" cx="243.1" cy="296.4" r="2.7" fill="#884276"/>
+    <circle class="on b5" cx="249.7" cy="296.4" r="2.7" fill="#9c4f89"/>
+    <circle class="on b5" cx="256.3" cy="296.4" r="2.7" fill="#8c447e"/>
+    <circle class="on b5" cx="262.9" cy="296.4" r="2.7" fill="#b05f9b"/>
+    <circle class="on b5" cx="269.5" cy="296.4" r="2.7" fill="#b664a5"/>
+    <circle class="on b5" cx="276.1" cy="296.4" r="2.7" fill="#ac54a0"/>
+    <circle class="on b5" cx="282.7" cy="296.4" r="2.7" fill="#bb62ab"/>
+    <circle class="on b5" cx="289.3" cy="296.4" r="2.7" fill="#c265ac"/>
+    <circle class="on b5" cx="295.9" cy="296.4" r="2.7" fill="#935b74"/>
+    <circle class="off" cx="315.7" cy="296.4" r="1"/>
+    <circle class="off" cx="31.9" cy="303.0" r="1"/>
+    <circle class="on b5" cx="64.9" cy="303.0" r="2.7" fill="#a2798b"/>
+    <circle class="on b5" cx="71.5" cy="303.0" r="2.7" fill="#9b518b"/>
+    <circle class="on b5" cx="78.1" cy="303.0" r="2.7" fill="#a37689"/>
+    <circle class="on b5" cx="84.7" cy="303.0" r="2.7" fill="#a55899"/>
+    <circle class="on b5" cx="91.3" cy="303.0" r="2.7" fill="#b661b8"/>
+    <circle class="on b5" cx="97.9" cy="303.0" r="2.7" fill="#b55fb5"/>
+    <circle class="on b5" cx="104.5" cy="303.0" r="2.7" fill="#964996"/>
+    <circle class="on b5" cx="111.1" cy="303.0" r="2.7" fill="#6f2f59"/>
+    <circle class="on b5" cx="117.7" cy="303.0" r="2.7" fill="#8f447b"/>
+    <circle class="on b5" cx="124.3" cy="303.0" r="2.7" fill="#91447e"/>
+    <circle class="on b5" cx="130.9" cy="303.0" r="2.7" fill="#8f457f"/>
+    <circle class="on b5" cx="137.5" cy="303.0" r="2.7" fill="#95477f"/>
+    <circle class="on b5" cx="144.1" cy="303.0" r="2.7" fill="#744466"/>
+    <circle class="on b5" cx="150.7" cy="303.0" r="2.7" fill="#898695"/>
+    <circle class="on b5" cx="157.3" cy="303.0" r="2.7" fill="#c69792"/>
+    <circle class="on b5" cx="163.9" cy="303.0" r="2.7" fill="#eea9a1"/>
+    <circle class="on b5" cx="170.5" cy="303.0" r="2.7" fill="#f6c6b9"/>
+    <circle class="on b5" cx="177.1" cy="303.0" r="2.7" fill="#e6d0c5"/>
+    <circle class="on b5" cx="183.7" cy="303.0" r="2.7" fill="#999a9f"/>
+    <circle class="on b5" cx="190.3" cy="303.0" r="2.7" fill="#a7b0be"/>
+    <circle class="on b5" cx="196.9" cy="303.0" r="2.7" fill="#d9b8f0"/>
+    <circle class="on b5" cx="203.5" cy="303.0" r="2.7" fill="#ae549e"/>
+    <circle class="on b5" cx="210.1" cy="303.0" r="2.7" fill="#b25fac"/>
+    <circle class="on b5" cx="216.7" cy="303.0" r="2.7" fill="#b662b0"/>
+    <circle class="on b5" cx="223.3" cy="303.0" r="2.7" fill="#af58a9"/>
+    <circle class="on b5" cx="229.9" cy="303.0" r="2.7" fill="#7e3464"/>
+    <circle class="on b5" cx="236.5" cy="303.0" r="2.7" fill="#883f7c"/>
+    <circle class="on b5" cx="243.1" cy="303.0" r="2.7" fill="#8b4181"/>
+    <circle class="on b5" cx="249.7" cy="303.0" r="2.7" fill="#9c4b93"/>
+    <circle class="on b5" cx="256.3" cy="303.0" r="2.7" fill="#92478e"/>
+    <circle class="on b5" cx="262.9" cy="303.0" r="2.7" fill="#a6579c"/>
+    <circle class="on b5" cx="269.5" cy="303.0" r="2.7" fill="#b864ac"/>
+    <circle class="on b5" cx="276.1" cy="303.0" r="2.7" fill="#ab54a5"/>
+    <circle class="on b5" cx="282.7" cy="303.0" r="2.7" fill="#ac58a9"/>
+    <circle class="on b5" cx="289.3" cy="303.0" r="2.7" fill="#bf62b3"/>
+    <circle class="on b5" cx="295.9" cy="303.0" r="2.7" fill="#ae658c"/>
+    <circle class="off" cx="309.1" cy="303.0" r="1"/>
+    <circle class="off" cx="25.3" cy="309.6" r="1"/>
+    <circle class="off" cx="64.9" cy="309.6" r="1"/>
+    <circle class="on b6" cx="71.5" cy="309.6" r="2.7" fill="#986c7e"/>
+    <circle class="on b6" cx="78.1" cy="309.6" r="2.7" fill="#83426c"/>
+    <circle class="on b6" cx="84.7" cy="309.6" r="2.7" fill="#813f6e"/>
+    <circle class="on b6" cx="91.3" cy="309.6" r="2.7" fill="#b55fbb"/>
+    <circle class="on b6" cx="97.9" cy="309.6" r="2.7" fill="#b05eb5"/>
+    <circle class="on b6" cx="104.5" cy="309.6" r="2.7" fill="#a354a6"/>
+    <circle class="on b6" cx="111.1" cy="309.6" r="2.7" fill="#7c346e"/>
+    <circle class="on b6" cx="117.7" cy="309.6" r="2.7" fill="#954483"/>
+    <circle class="on b6" cx="124.3" cy="309.6" r="2.7" fill="#914585"/>
+    <circle class="on b6" cx="130.9" cy="309.6" r="2.7" fill="#89457b"/>
+    <circle class="on b6" cx="137.5" cy="309.6" r="2.7" fill="#522f48"/>
+    <circle class="on b6" cx="144.1" cy="309.6" r="2.7" fill="#9b8286"/>
+    <circle class="on b6" cx="150.7" cy="309.6" r="2.7" fill="#c7c7ca"/>
+    <circle class="on b6" cx="157.3" cy="309.6" r="2.7" fill="#cdb6aa"/>
+    <circle class="on b6" cx="163.9" cy="309.6" r="2.7" fill="#fcd1bf"/>
+    <circle class="on b6" cx="170.5" cy="309.6" r="2.7" fill="#ba9e93"/>
+    <circle class="on b6" cx="177.1" cy="309.6" r="2.7" fill="#9a9899"/>
+    <circle class="on b6" cx="183.7" cy="309.6" r="2.7" fill="#fafbfb"/>
+    <circle class="on b6" cx="190.3" cy="309.6" r="2.7" fill="#cfd5db"/>
+    <circle class="on b6" cx="196.9" cy="309.6" r="2.7" fill="#d9b8f0"/>
+    <circle class="on b6" cx="203.5" cy="309.6" r="2.7" fill="#7c3b6b"/>
+    <circle class="on b6" cx="210.1" cy="309.6" r="2.7" fill="#a557a8"/>
+    <circle class="on b6" cx="216.7" cy="309.6" r="2.7" fill="#bb62bc"/>
+    <circle class="on b6" cx="223.3" cy="309.6" r="2.7" fill="#b65eb8"/>
+    <circle class="on b6" cx="229.9" cy="309.6" r="2.7" fill="#712f61"/>
+    <circle class="on b6" cx="236.5" cy="309.6" r="2.7" fill="#894186"/>
+    <circle class="on b6" cx="243.1" cy="309.6" r="2.7" fill="#8e4289"/>
+    <circle class="on b6" cx="249.7" cy="309.6" r="2.7" fill="#934593"/>
+    <circle class="on b6" cx="256.3" cy="309.6" r="2.7" fill="#9b4e9f"/>
+    <circle class="on b6" cx="262.9" cy="309.6" r="2.7" fill="#a251a2"/>
+    <circle class="on b6" cx="269.5" cy="309.6" r="2.7" fill="#b864b2"/>
+    <circle class="on b6" cx="276.1" cy="309.6" r="2.7" fill="#af5eaf"/>
+    <circle class="on b6" cx="282.7" cy="309.6" r="2.7" fill="#9c4b9f"/>
+    <circle class="on b6" cx="289.3" cy="309.6" r="2.7" fill="#c062bc"/>
+    <circle class="on b6" cx="295.9" cy="309.6" r="2.7" fill="#b36998"/>
+    <circle class="off" cx="302.5" cy="309.6" r="1"/>
+    <circle class="off" cx="58.3" cy="316.2" r="1"/>
+    <circle class="on b6" cx="84.7" cy="316.2" r="2.7" fill="#956483"/>
+    <circle class="on b6" cx="91.3" cy="316.2" r="2.7" fill="#91488f"/>
+    <circle class="on b6" cx="97.9" cy="316.2" r="2.7" fill="#ae5eb6"/>
+    <circle class="on b6" cx="104.5" cy="316.2" r="2.7" fill="#ac59b8"/>
+    <circle class="on b6" cx="111.1" cy="316.2" r="2.7" fill="#8c3a83"/>
+    <circle class="on b6" cx="117.7" cy="316.2" r="2.7" fill="#934486"/>
+    <circle class="on b6" cx="124.3" cy="316.2" r="2.7" fill="#8b4481"/>
+    <circle class="on b6" cx="130.9" cy="316.2" r="2.7" fill="#493a54"/>
+    <circle class="on b6" cx="137.5" cy="316.2" r="2.7" fill="#2f3f55"/>
+    <circle class="on b6" cx="144.1" cy="316.2" r="2.7" fill="#868286"/>
+    <circle class="on b6" cx="150.7" cy="316.2" r="2.7" fill="#fcfcfc"/>
+    <circle class="on b6" cx="157.3" cy="316.2" r="2.7" fill="#8f8887"/>
+    <circle class="on b6" cx="163.9" cy="316.2" r="2.7" fill="#aa9a95"/>
+    <circle class="on b6" cx="170.5" cy="316.2" r="2.7" fill="#c2c4c5"/>
+    <circle class="on b6" cx="177.1" cy="316.2" r="2.7" fill="#fcfdfb"/>
+    <circle class="on b6" cx="183.7" cy="316.2" r="2.7" fill="#fefefe"/>
+    <circle class="on b6" cx="190.3" cy="316.2" r="2.7" fill="#999a9d"/>
+    <circle class="on b6" cx="196.9" cy="316.2" r="2.7" fill="#2e3f58"/>
+    <circle class="on b6" cx="203.5" cy="316.2" r="2.7" fill="#d9b8f0"/>
+    <circle class="on b6" cx="210.1" cy="316.2" r="2.7" fill="#894285"/>
+    <circle class="on b6" cx="216.7" cy="316.2" r="2.7" fill="#bb61c6"/>
+    <circle class="on b6" cx="223.3" cy="316.2" r="2.7" fill="#b55fbf"/>
+    <circle class="on b6" cx="229.9" cy="316.2" r="2.7" fill="#78346e"/>
+    <circle class="on b6" cx="236.5" cy="316.2" r="2.7" fill="#893f8b"/>
+    <circle class="on b6" cx="243.1" cy="316.2" r="2.7" fill="#8e4192"/>
+    <circle class="on b6" cx="249.7" cy="316.2" r="2.7" fill="#893f92"/>
+    <circle class="on b6" cx="256.3" cy="316.2" r="2.7" fill="#a24fab"/>
+    <circle class="on b6" cx="262.9" cy="316.2" r="2.7" fill="#a34ea8"/>
+    <circle class="on b6" cx="269.5" cy="316.2" r="2.7" fill="#b864b6"/>
+    <circle class="on b6" cx="276.1" cy="316.2" r="2.7" fill="#b361b5"/>
+    <circle class="on b6" cx="282.7" cy="316.2" r="2.7" fill="#99489c"/>
+    <circle class="on b6" cx="289.3" cy="316.2" r="2.7" fill="#bd62bf"/>
+    <circle class="on b6" cx="295.9" cy="316.2" r="2.7" fill="#ac6595"/>
+    <circle class="off" cx="51.7" cy="322.8" r="1"/>
+    <circle class="on b6" cx="91.3" cy="322.8" r="2.7" fill="#d9b8f0"/>
+    <circle class="on b6" cx="97.9" cy="322.8" r="2.7" fill="#9e52a2"/>
+    <circle class="on b6" cx="104.5" cy="322.8" r="2.7" fill="#b65cc3"/>
+    <circle class="on b6" cx="111.1" cy="322.8" r="2.7" fill="#8b387f"/>
+    <circle class="on b6" cx="117.7" cy="322.8" r="2.7" fill="#934788"/>
+    <circle class="on b6" cx="124.3" cy="322.8" r="2.7" fill="#d9b8f0"/>
+    <circle class="on b6" cx="130.9" cy="322.8" r="2.7" fill="#354865"/>
+    <circle class="on b6" cx="137.5" cy="322.8" r="2.7" fill="#314761"/>
+    <circle class="on b6" cx="144.1" cy="322.8" r="2.7" fill="#555b69"/>
+    <circle class="on b6" cx="150.7" cy="322.8" r="2.7" fill="#f3f3f3"/>
+    <circle class="on b6" cx="157.3" cy="322.8" r="2.7" fill="#a6a6aa"/>
+    <circle class="on b6" cx="163.9" cy="322.8" r="2.7" fill="#b0afb1"/>
+    <circle class="on b6" cx="170.5" cy="322.8" r="2.7" fill="#fdfefc"/>
+    <circle class="on b6" cx="177.1" cy="322.8" r="2.7" fill="#fdfcfb"/>
+    <circle class="on b6" cx="183.7" cy="322.8" r="2.7" fill="#f8f8f7"/>
+    <circle class="on b6" cx="190.3" cy="322.8" r="2.7" fill="#575e6c"/>
+    <circle class="on b6" cx="196.9" cy="322.8" r="2.7" fill="#354868"/>
+    <circle class="on b6" cx="203.5" cy="322.8" r="2.7" fill="#354564"/>
+    <circle class="on b6" cx="210.1" cy="322.8" r="2.7" fill="#4b3754"/>
+    <circle class="on b6" cx="216.7" cy="322.8" r="2.7" fill="#a555a5"/>
+    <circle class="on b6" cx="223.3" cy="322.8" r="2.7" fill="#b861c5"/>
+    <circle class="on b6" cx="229.9" cy="322.8" r="2.7" fill="#7f3b7c"/>
+    <circle class="on b6" cx="236.5" cy="322.8" r="2.7" fill="#863f89"/>
+    <circle class="on b6" cx="243.1" cy="322.8" r="2.7" fill="#8b4295"/>
+    <circle class="on b6" cx="249.7" cy="322.8" r="2.7" fill="#8b4295"/>
+    <circle class="on b6" cx="256.3" cy="322.8" r="2.7" fill="#9c49ab"/>
+    <circle class="on b6" cx="262.9" cy="322.8" r="2.7" fill="#9f49ab"/>
+    <circle class="on b6" cx="269.5" cy="322.8" r="2.7" fill="#b861bd"/>
+    <circle class="on b6" cx="276.1" cy="322.8" r="2.7" fill="#b661bc"/>
+    <circle class="on b6" cx="282.7" cy="322.8" r="2.7" fill="#98489f"/>
+    <circle class="on b6" cx="289.3" cy="322.8" r="2.7" fill="#b561b5"/>
+    <circle class="on b6" cx="295.9" cy="322.8" r="2.7" fill="#9b6b83"/>
+    <circle class="off" cx="45.1" cy="329.4" r="1"/>
+    <circle class="on b6" cx="84.7" cy="329.4" r="2.7" fill="#7f4f69"/>
+    <circle class="on b6" cx="91.3" cy="329.4" r="2.7" fill="#833f7f"/>
+    <circle class="on b6" cx="97.9" cy="329.4" r="2.7" fill="#954895"/>
+    <circle class="on b6" cx="104.5" cy="329.4" r="2.7" fill="#ae55bb"/>
+    <circle class="on b6" cx="111.1" cy="329.4" r="2.7" fill="#893776"/>
+    <circle class="on b6" cx="117.7" cy="329.4" r="2.7" fill="#6f3b6b"/>
+    <circle class="on b6" cx="124.3" cy="329.4" r="2.7" fill="#344459"/>
+    <circle class="on b6" cx="130.9" cy="329.4" r="2.7" fill="#344762"/>
+    <circle class="on b6" cx="137.5" cy="329.4" r="2.7" fill="#314866"/>
+    <circle class="on b6" cx="144.1" cy="329.4" r="2.7" fill="#374764"/>
+    <circle class="on b6" cx="150.7" cy="329.4" r="2.7" fill="#83858f"/>
+    <circle class="on b6" cx="157.3" cy="329.4" r="2.7" fill="#d9d9da"/>
+    <circle class="on b6" cx="163.9" cy="329.4" r="2.7" fill="#f3f3f3"/>
+    <circle class="on b6" cx="170.5" cy="329.4" r="2.7" fill="#fefefe"/>
+    <circle class="on b6" cx="177.1" cy="329.4" r="2.7" fill="#fdfdfd"/>
+    <circle class="on b6" cx="183.7" cy="329.4" r="2.7" fill="#a5a5a8"/>
+    <circle class="on b6" cx="190.3" cy="329.4" r="2.7" fill="#374764"/>
+    <circle class="on b6" cx="196.9" cy="329.4" r="2.7" fill="#354866"/>
+    <circle class="on b6" cx="203.5" cy="329.4" r="2.7" fill="#37486b"/>
+    <circle class="on b6" cx="210.1" cy="329.4" r="2.7" fill="#354769"/>
+    <circle class="on b6" cx="216.7" cy="329.4" r="2.7" fill="#6b3b6b"/>
+    <circle class="on b6" cx="223.3" cy="329.4" r="2.7" fill="#b861c8"/>
+    <circle class="on b6" cx="229.9" cy="329.4" r="2.7" fill="#7c3574"/>
+    <circle class="on b6" cx="236.5" cy="329.4" r="2.7" fill="#8b4295"/>
+    <circle class="on b6" cx="243.1" cy="329.4" r="2.7" fill="#8c4298"/>
+    <circle class="on b6" cx="249.7" cy="329.4" r="2.7" fill="#8b4298"/>
+    <circle class="on b6" cx="256.3" cy="329.4" r="2.7" fill="#9244a0"/>
+    <circle class="on b6" cx="262.9" cy="329.4" r="2.7" fill="#a34cb2"/>
+    <circle class="on b6" cx="269.5" cy="329.4" r="2.7" fill="#bb5ec9"/>
+    <circle class="on b6" cx="276.1" cy="329.4" r="2.7" fill="#b85fc8"/>
+    <circle class="on b6" cx="282.7" cy="329.4" r="2.7" fill="#9c4ba6"/>
+    <circle class="on b6" cx="289.3" cy="329.4" r="2.7" fill="#834472"/>
+    <circle class="off" cx="322.3" cy="329.4" r="1"/>
+    <circle class="off" cx="38.5" cy="336.0" r="1"/>
+    <circle class="off" cx="78.1" cy="336.0" r="1"/>
+    <circle class="on b6" cx="84.7" cy="336.0" r="2.7" fill="#925983"/>
+    <circle class="on b6" cx="91.3" cy="336.0" r="2.7" fill="#743168"/>
+    <circle class="on b6" cx="97.9" cy="336.0" r="2.7" fill="#994991"/>
+    <circle class="on b6" cx="104.5" cy="336.0" r="2.7" fill="#7f346b"/>
+    <circle class="on b6" cx="111.1" cy="336.0" r="2.7" fill="#92458e"/>
+    <circle class="on b6" cx="117.7" cy="336.0" r="2.7" fill="#493a59"/>
+    <circle class="on b6" cx="124.3" cy="336.0" r="2.7" fill="#344562"/>
+    <circle class="on b6" cx="130.9" cy="336.0" r="2.7" fill="#314762"/>
+    <circle class="on b6" cx="137.5" cy="336.0" r="2.7" fill="#314866"/>
+    <circle class="on b6" cx="144.1" cy="336.0" r="2.7" fill="#2f4564"/>
+    <circle class="on b6" cx="150.7" cy="336.0" r="2.7" fill="#32425e"/>
+    <circle class="on b6" cx="157.3" cy="336.0" r="2.7" fill="#4f576b"/>
+    <circle class="on b6" cx="163.9" cy="336.0" r="2.7" fill="#949599"/>
+    <circle class="on b6" cx="170.5" cy="336.0" r="2.7" fill="#ececec"/>
+    <circle class="on b6" cx="177.1" cy="336.0" r="2.7" fill="#fbfbfb"/>
+    <circle class="on b6" cx="183.7" cy="336.0" r="2.7" fill="#595f6e"/>
+    <circle class="on b6" cx="190.3" cy="336.0" r="2.7" fill="#344565"/>
+    <circle class="on b6" cx="196.9" cy="336.0" r="2.7" fill="#374868"/>
+    <circle class="on b6" cx="203.5" cy="336.0" r="2.7" fill="#374868"/>
+    <circle class="on b6" cx="210.1" cy="336.0" r="2.7" fill="#374568"/>
+    <circle class="on b6" cx="216.7" cy="336.0" r="2.7" fill="#5f3a62"/>
+    <circle class="on b6" cx="223.3" cy="336.0" r="2.7" fill="#a557ab"/>
+    <circle class="on b6" cx="229.9" cy="336.0" r="2.7" fill="#7c326b"/>
+    <circle class="on b6" cx="236.5" cy="336.0" r="2.7" fill="#8e419f"/>
+    <circle class="on b6" cx="243.1" cy="336.0" r="2.7" fill="#8c3f96"/>
+    <circle class="on b6" cx="249.7" cy="336.0" r="2.7" fill="#8f3f9e"/>
+    <circle class="on b6" cx="256.3" cy="336.0" r="2.7" fill="#8f429c"/>
+    <circle class="on b6" cx="262.9" cy="336.0" r="2.7" fill="#a34eb2"/>
+    <circle class="on b6" cx="269.5" cy="336.0" r="2.7" fill="#bb5bcd"/>
+    <circle class="on b6" cx="276.1" cy="336.0" r="2.7" fill="#ac54b5"/>
+    <circle class="on b6" cx="282.7" cy="336.0" r="2.7" fill="#8e4e81"/>
+    <circle class="off" cx="315.7" cy="336.0" r="1"/>
+    <circle class="off" cx="31.9" cy="342.6" r="1"/>
+    <circle class="off" cx="71.5" cy="342.6" r="1"/>
+    <circle class="on b6" cx="84.7" cy="342.6" r="2.7" fill="#935b82"/>
+    <circle class="on b6" cx="91.3" cy="342.6" r="2.7" fill="#813878"/>
+    <circle class="on b6" cx="97.9" cy="342.6" r="2.7" fill="#8c3b83"/>
+    <circle class="on b6" cx="104.5" cy="342.6" r="2.7" fill="#924796"/>
+    <circle class="on b6" cx="111.1" cy="342.6" r="2.7" fill="#693569"/>
+    <circle class="on b6" cx="117.7" cy="342.6" r="2.7" fill="#384462"/>
+    <circle class="on b6" cx="124.3" cy="342.6" r="2.7" fill="#32415e"/>
+    <circle class="on b6" cx="130.9" cy="342.6" r="2.7" fill="#324461"/>
+    <circle class="on b6" cx="137.5" cy="342.6" r="2.7" fill="#2f4564"/>
+    <circle class="on b6" cx="144.1" cy="342.6" r="2.7" fill="#324565"/>
+    <circle class="on b6" cx="150.7" cy="342.6" r="2.7" fill="#354566"/>
+    <circle class="on b6" cx="157.3" cy="342.6" r="2.7" fill="#344766"/>
+    <circle class="on b6" cx="163.9" cy="342.6" r="2.7" fill="#2f425e"/>
+    <circle class="on b6" cx="170.5" cy="342.6" r="2.7" fill="#455268"/>
+    <circle class="on b6" cx="177.1" cy="342.6" r="2.7" fill="#7b7c85"/>
+    <circle class="on b6" cx="183.7" cy="342.6" r="2.7" fill="#515868"/>
+    <circle class="on b6" cx="190.3" cy="342.6" r="2.7" fill="#324261"/>
+    <circle class="on b6" cx="196.9" cy="342.6" r="2.7" fill="#354568"/>
+    <circle class="on b6" cx="203.5" cy="342.6" r="2.7" fill="#344564"/>
+    <circle class="on b6" cx="210.1" cy="342.6" r="2.7" fill="#3b3f59"/>
+    <circle class="on b6" cx="216.7" cy="342.6" r="2.7" fill="#613551"/>
+    <circle class="on b6" cx="223.3" cy="342.6" r="2.7" fill="#d9b8f0"/>
+    <circle class="on b6" cx="229.9" cy="342.6" r="2.7" fill="#683264"/>
+    <circle class="on b6" cx="236.5" cy="342.6" r="2.7" fill="#8f41a2"/>
+    <circle class="on b6" cx="243.1" cy="342.6" r="2.7" fill="#8f41a2"/>
+    <circle class="on b6" cx="249.7" cy="342.6" r="2.7" fill="#9341a5"/>
+    <circle class="on b6" cx="256.3" cy="342.6" r="2.7" fill="#8c419c"/>
+    <circle class="on b6" cx="262.9" cy="342.6" r="2.7" fill="#a857b9"/>
+    <circle class="on b6" cx="269.5" cy="342.6" r="2.7" fill="#b05bbb"/>
+    <circle class="on b6" cx="276.1" cy="342.6" r="2.7" fill="#986485"/>
+    <circle class="off" cx="309.1" cy="342.6" r="1"/>
+    <circle class="off" cx="25.3" cy="349.2" r="1"/>
+    <circle class="off" cx="64.9" cy="349.2" r="1"/>
+    <circle class="on b7" cx="84.7" cy="349.2" r="2.7" fill="#9e7185"/>
+    <circle class="on b7" cx="91.3" cy="349.2" r="2.7" fill="#96498f"/>
+    <circle class="on b7" cx="97.9" cy="349.2" r="2.7" fill="#92459e"/>
+    <circle class="on b7" cx="104.5" cy="349.2" r="2.7" fill="#894493"/>
+    <circle class="on b7" cx="111.1" cy="349.2" r="2.7" fill="#d9b8f0"/>
+    <circle class="on b7" cx="117.7" cy="349.2" r="2.7" fill="#324261"/>
+    <circle class="on b7" cx="124.3" cy="349.2" r="2.7" fill="#d9b8f0"/>
+    <circle class="on b7" cx="130.9" cy="349.2" r="2.7" fill="#374768"/>
+    <circle class="on b7" cx="137.5" cy="349.2" r="2.7" fill="#344465"/>
+    <circle class="on b7" cx="144.1" cy="349.2" r="2.7" fill="#354566"/>
+    <circle class="on b7" cx="150.7" cy="349.2" r="2.7" fill="#354565"/>
+    <circle class="on b7" cx="157.3" cy="349.2" r="2.7" fill="#324464"/>
+    <circle class="on b7" cx="163.9" cy="349.2" r="2.7" fill="#314866"/>
+    <circle class="on b7" cx="170.5" cy="349.2" r="2.7" fill="#4f647f"/>
+    <circle class="on b7" cx="177.1" cy="349.2" r="2.7" fill="#646676"/>
+    <circle class="on b7" cx="183.7" cy="349.2" r="2.7" fill="#596479"/>
+    <circle class="on b7" cx="190.3" cy="349.2" r="2.7" fill="#32425e"/>
+    <circle class="on b7" cx="196.9" cy="349.2" r="2.7" fill="#2e3f5b"/>
+    <circle class="on b7" cx="203.5" cy="349.2" r="2.7" fill="#314565"/>
+    <circle class="on b7" cx="210.1" cy="349.2" r="2.7" fill="#344565"/>
+    <circle class="on b7" cx="216.7" cy="349.2" r="2.7" fill="#34425f"/>
+    <circle class="on b7" cx="223.3" cy="349.2" r="2.7" fill="#d9b8f0"/>
+    <circle class="on b7" cx="229.9" cy="349.2" r="2.7" fill="#d9b8f0"/>
+    <circle class="on b7" cx="236.5" cy="349.2" r="2.7" fill="#8e429e"/>
+    <circle class="on b7" cx="243.1" cy="349.2" r="2.7" fill="#9342a6"/>
+    <circle class="on b7" cx="249.7" cy="349.2" r="2.7" fill="#9342a6"/>
+    <circle class="on b7" cx="256.3" cy="349.2" r="2.7" fill="#9c4eae"/>
+    <circle class="on b7" cx="262.9" cy="349.2" r="2.7" fill="#9b4f9f"/>
+    <circle class="on b7" cx="269.5" cy="349.2" r="2.7" fill="#91617e"/>
+    <circle class="off" cx="302.5" cy="349.2" r="1"/>
+    <circle class="off" cx="58.3" cy="355.8" r="1"/>
+    <circle class="on b7" cx="91.3" cy="355.8" r="2.7" fill="#986c7e"/>
+    <circle class="on b7" cx="97.9" cy="355.8" r="2.7" fill="#884975"/>
+    <circle class="on b7" cx="104.5" cy="355.8" r="2.7" fill="#783a72"/>
+    <circle class="on b7" cx="111.1" cy="355.8" r="2.7" fill="#d9b8f0"/>
+    <circle class="on b7" cx="117.7" cy="355.8" r="2.7" fill="#d9b8f0"/>
+    <circle class="on b7" cx="124.3" cy="355.8" r="2.7" fill="#d9b8f0"/>
+    <circle class="on b7" cx="130.9" cy="355.8" r="2.7" fill="#37476b"/>
+    <circle class="on b7" cx="137.5" cy="355.8" r="2.7" fill="#354569"/>
+    <circle class="on b7" cx="144.1" cy="355.8" r="2.7" fill="#354566"/>
+    <circle class="on b7" cx="150.7" cy="355.8" r="2.7" fill="#344464"/>
+    <circle class="on b7" cx="157.3" cy="355.8" r="2.7" fill="#344565"/>
+    <circle class="on b7" cx="163.9" cy="355.8" r="2.7" fill="#32486c"/>
+    <circle class="on b7" cx="170.5" cy="355.8" r="2.7" fill="#2b3f5e"/>
+    <circle class="on b7" cx="177.1" cy="355.8" r="2.7" fill="#d9b8f0"/>
+    <circle class="on b7" cx="183.7" cy="355.8" r="2.7" fill="#314562"/>
+    <circle class="on b7" cx="190.3" cy="355.8" r="2.7" fill="#324461"/>
+    <circle class="on b7" cx="196.9" cy="355.8" r="2.7" fill="#d9b8f0"/>
+    <circle class="on b7" cx="203.5" cy="355.8" r="2.7" fill="#314462"/>
+    <circle class="on b7" cx="210.1" cy="355.8" r="2.7" fill="#314769"/>
+    <circle class="on b7" cx="216.7" cy="355.8" r="2.7" fill="#2f4765"/>
+    <circle class="on b7" cx="223.3" cy="355.8" r="2.7" fill="#2e4261"/>
+    <circle class="on b7" cx="229.9" cy="355.8" r="2.7" fill="#d9b8f0"/>
+    <circle class="on b7" cx="236.5" cy="355.8" r="2.7" fill="#813c86"/>
+    <circle class="on b7" cx="243.1" cy="355.8" r="2.7" fill="#913f99"/>
+    <circle class="on b7" cx="249.7" cy="355.8" r="2.7" fill="#893b88"/>
+    <circle class="on b7" cx="256.3" cy="355.8" r="2.7" fill="#925782"/>
+    <circle class="on b7" cx="262.9" cy="355.8" r="2.7" fill="#885c71"/>
+    <circle class="off" cx="295.9" cy="355.8" r="1"/>
+    <circle class="off" cx="51.7" cy="362.4" r="1"/>
+    <circle class="off" cx="91.3" cy="362.4" r="1"/>
+    <circle class="on b7" cx="104.5" cy="362.4" r="2.7" fill="#9c7f88"/>
+    <circle class="on b7" cx="111.1" cy="362.4" r="2.7" fill="#5f687b"/>
+    <circle class="on b7" cx="117.7" cy="362.4" r="2.7" fill="#3a455f"/>
+    <circle class="on b7" cx="124.3" cy="362.4" r="2.7" fill="#d9b8f0"/>
+    <circle class="on b7" cx="130.9" cy="362.4" r="2.7" fill="#35496e"/>
+    <circle class="on b7" cx="137.5" cy="362.4" r="2.7" fill="#374768"/>
+    <circle class="on b7" cx="144.1" cy="362.4" r="2.7" fill="#344562"/>
+    <circle class="on b7" cx="150.7" cy="362.4" r="2.7" fill="#354565"/>
+    <circle class="on b7" cx="157.3" cy="362.4" r="2.7" fill="#354768"/>
+    <circle class="on b7" cx="163.9" cy="362.4" r="2.7" fill="#314769"/>
+    <circle class="on b7" cx="170.5" cy="362.4" r="2.7" fill="#515e72"/>
+    <circle class="on b7" cx="177.1" cy="362.4" r="2.7" fill="#818189"/>
+    <circle class="on b7" cx="183.7" cy="362.4" r="2.7" fill="#586174"/>
+    <circle class="on b7" cx="190.3" cy="362.4" r="2.7" fill="#354765"/>
+    <circle class="on b7" cx="196.9" cy="362.4" r="2.7" fill="#d9b8f0"/>
+    <circle class="on b7" cx="203.5" cy="362.4" r="2.7" fill="#2e3f5b"/>
+    <circle class="on b7" cx="210.1" cy="362.4" r="2.7" fill="#314868"/>
+    <circle class="on b7" cx="216.7" cy="362.4" r="2.7" fill="#32496b"/>
+    <circle class="on b7" cx="223.3" cy="362.4" r="2.7" fill="#324562"/>
+    <circle class="on b7" cx="229.9" cy="362.4" r="2.7" fill="#51586b"/>
+    <circle class="on b7" cx="236.5" cy="362.4" r="2.7" fill="#92697e"/>
+    <circle class="on b7" cx="243.1" cy="362.4" r="2.7" fill="#9e7185"/>
+    <circle class="off" cx="249.7" cy="362.4" r="1"/>
+    <circle class="off" cx="289.3" cy="362.4" r="1"/>
+    <circle class="off" cx="45.1" cy="369.0" r="1"/>
+    <circle class="off" cx="84.7" cy="369.0" r="1"/>
+    <circle class="off" cx="124.3" cy="369.0" r="1"/>
+    <circle class="on b7" cx="130.9" cy="369.0" r="2.7" fill="#8693a5"/>
+    <circle class="on b7" cx="137.5" cy="369.0" r="2.7" fill="#728195"/>
+    <circle class="on b7" cx="144.1" cy="369.0" r="2.7" fill="#5e6c7f"/>
+    <circle class="on b7" cx="150.7" cy="369.0" r="2.7" fill="#627288"/>
+    <circle class="on b7" cx="157.3" cy="369.0" r="2.7" fill="#495e76"/>
+    <circle class="on b7" cx="163.9" cy="369.0" r="2.7" fill="#384e66"/>
+    <circle class="on b7" cx="170.5" cy="369.0" r="2.7" fill="#48586e"/>
+    <circle class="on b7" cx="177.1" cy="369.0" r="2.7" fill="#484e5c"/>
+    <circle class="on b7" cx="183.7" cy="369.0" r="2.7" fill="#61687b"/>
+    <circle class="on b7" cx="190.3" cy="369.0" r="2.7" fill="#5b667e"/>
+    <circle class="on b7" cx="196.9" cy="369.0" r="2.7" fill="#5c6576"/>
+    <circle class="on b7" cx="203.5" cy="369.0" r="2.7" fill="#586478"/>
+    <circle class="on b7" cx="210.1" cy="369.0" r="2.7" fill="#79889b"/>
+    <circle class="on b7" cx="216.7" cy="369.0" r="2.7" fill="#8f9eae"/>
+    <circle class="off" cx="243.1" cy="369.0" r="1"/>
+    <circle class="off" cx="282.7" cy="369.0" r="1"/>
+    <circle class="off" cx="322.3" cy="369.0" r="1"/>
+    <circle class="off" cx="38.5" cy="375.6" r="1"/>
+    <circle class="off" cx="78.1" cy="375.6" r="1"/>
+    <circle class="off" cx="117.7" cy="375.6" r="1"/>
+    <circle class="off" cx="157.3" cy="375.6" r="1"/>
+    <circle class="off" cx="196.9" cy="375.6" r="1"/>
+    <circle class="off" cx="236.5" cy="375.6" r="1"/>
+    <circle class="off" cx="276.1" cy="375.6" r="1"/>
+    <circle class="off" cx="315.7" cy="375.6" r="1"/>
+    <circle class="off" cx="31.9" cy="382.2" r="1"/>
+    <circle class="off" cx="71.5" cy="382.2" r="1"/>
+    <circle class="off" cx="111.1" cy="382.2" r="1"/>
+    <circle class="off" cx="150.7" cy="382.2" r="1"/>
+    <circle class="off" cx="190.3" cy="382.2" r="1"/>
+    <circle class="off" cx="229.9" cy="382.2" r="1"/>
+    <circle class="off" cx="269.5" cy="382.2" r="1"/>
+    <circle class="off" cx="309.1" cy="382.2" r="1"/>
+    <circle class="off" cx="25.3" cy="388.8" r="1"/>
+    <circle class="off" cx="64.9" cy="388.8" r="1"/>
+    <circle class="off" cx="104.5" cy="388.8" r="1"/>
+    <circle class="off" cx="144.1" cy="388.8" r="1"/>
+    <circle class="off" cx="183.7" cy="388.8" r="1"/>
+    <circle class="off" cx="223.3" cy="388.8" r="1"/>
+    <circle class="off" cx="262.9" cy="388.8" r="1"/>
+    <circle class="off" cx="302.5" cy="388.8" r="1"/>
+    <circle class="off" cx="58.3" cy="395.4" r="1"/>
+    <circle class="off" cx="97.9" cy="395.4" r="1"/>
+    <circle class="off" cx="137.5" cy="395.4" r="1"/>
+    <circle class="off" cx="177.1" cy="395.4" r="1"/>
+    <circle class="off" cx="216.7" cy="395.4" r="1"/>
+    <circle class="off" cx="256.3" cy="395.4" r="1"/>
+    <circle class="off" cx="295.9" cy="395.4" r="1"/>
+    <rect class="beam" x="16" y="0" width="316" height="60" fill="url(#scan)"/>
+  </g>
+
+  <!-- panel derecho: system info -->
+  <rect x="344" y="44" width="440" height="360" rx="8" fill="#150d1c" stroke="#2a1d36"/>
+  <text x="358" y="62" class="lbl">SYSTEM.INFO</text>
+  <g class="row" style="animation-delay:0.60s"><text x="358" y="96" class="k">SUBJECT</text><text x="474" y="96" class="v">Vanesa Paco Alvarez</text><line x1="358" y1="105" x2="764" y2="105" class="sep"/></g>
+    <g class="row" style="animation-delay:0.88s"><text x="358" y="123" class="k">HANDLE</text><text x="474" y="123" class="v">@TechiWriter</text><line x1="358" y1="132" x2="764" y2="132" class="sep"/></g>
+    <g class="row" style="animation-delay:1.16s"><text x="358" y="150" class="k">ROLE</text><text x="474" y="150" class="v">Content Marketer · Writer</text><line x1="358" y1="159" x2="764" y2="159" class="sep"/></g>
+    <g class="row" style="animation-delay:1.44s"><text x="358" y="177" class="k">STATUS</text><text x="474" y="177" class="v">Creating | Automating | Vibecoding</text><line x1="358" y1="186" x2="764" y2="186" class="sep"/></g>
+    <g class="row" style="animation-delay:1.72s"><text x="358" y="204" class="k">SKILLS</text><text x="474" y="204" class="v">IA Tools · Video · Writing · Design</text><line x1="358" y1="213" x2="764" y2="213" class="sep"/></g>
+    <g class="row" style="animation-delay:2.00s"><text x="358" y="231" class="k">STACK</text><text x="474" y="231" class="v">Make · n8n · Notion · v0 · Claude</text><line x1="358" y1="240" x2="764" y2="240" class="sep"/></g>
+    <g class="row" style="animation-delay:2.28s"><text x="358" y="258" class="k">BADGES</text><text x="474" y="258" class="v">Adobe · Microsoft · Crehana</text><line x1="358" y1="267" x2="764" y2="267" class="sep"/></g>
+    <g class="row" style="animation-delay:2.56s"><text x="358" y="285" class="k">COMMUNITY</text><text x="474" y="285" class="v">PyLadies · Women Game Jam · AWS UG</text><line x1="358" y1="294" x2="764" y2="294" class="sep"/></g>
+    <g class="row" style="animation-delay:2.84s"><text x="358" y="312" class="k">EXPERIENCE</text><text x="474" y="312" class="v">3+ years · Tech / SaaS / Telco</text><line x1="358" y1="321" x2="764" y2="321" class="sep"/></g>
+    <g class="row" style="animation-delay:3.12s"><text x="358" y="339" class="k">CONTACT</text><text x="474" y="339" class="v">vanesapaco.com</text><line x1="358" y1="348" x2="764" y2="348" class="sep"/></g>
+  <text x="358" y="388" class="v">&gt; ✦ hi, creator<tspan class="cursor">▌</tspan></text>
+</svg>

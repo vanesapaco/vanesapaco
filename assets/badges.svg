@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="220" viewBox="0 0 800 220" role="img" aria-label="Badges oficiales de Vanesa Paco">
+  <title>Badges · TechiWriter</title>
+  <style>
+    text { font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace; }
+    .badge { opacity:0; animation:pop .6s cubic-bezier(.2,1.4,.4,1) forwards; transform-box:fill-box; transform-origin:center; }
+    .hexo { fill:#150d1c; stroke:#8639b0; stroke-width:2; }
+    .hexi { fill:none; stroke:#b57edc; stroke-width:1.2; stroke-dasharray:6 5; animation:spin 3s linear infinite, glow 2.4s ease-in-out infinite; }
+    .org  { fill:#b57edc; font-size:11px; letter-spacing:1.5px; font-weight:700; }
+    .bn   { fill:#f9f4fd; font-size:16px; }
+    .name { fill:#f9f4fd; font-size:13px; }
+    .sub  { fill:#8b7a99; font-size:10.5px; letter-spacing:1px; }
+    @keyframes pop  { from { opacity:0; transform:scale(.6); } to { opacity:1; transform:scale(1); } }
+    @keyframes spin { to { stroke-dashoffset:-44; } }
+    @keyframes glow { 0%,100% { stroke-opacity:.35; } 50% { stroke-opacity:1; } }
+  </style>
+  <rect width="800" height="220" rx="14" fill="#0f0a14"/>
+  <rect x=".5" y=".5" width="799" height="219" rx="14" fill="none" stroke="#3a2648"/>
+  <text x="20" y="24" fill="#b57edc" font-size="11" letter-spacing="2" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace">BADGES.VERIFIED</text>
+  <g class="badge" style="animation-delay:0.00s">
+    <polygon points="88.0,38.0 134.8,65.0 134.8,119.0 88.0,146.0 41.2,119.0 41.2,65.0" class="hexo"/>
+    <polygon points="88.0,48.0 126.1,70.0 126.1,114.0 88.0,136.0 49.9,114.0 49.9,70.0" class="hexi" style="animation-delay:1.20s"/>
+    <text x="88" y="86" text-anchor="middle" class="org">ADOBE</text>
+    <text x="88" y="104" text-anchor="middle" class="bn">✦</text>
+    <text x="88" y="172" text-anchor="middle" class="name">Content Creator</text>
+    <text x="88" y="190" text-anchor="middle" class="sub">Credly ✓</text>
+  </g><g class="badge" style="animation-delay:0.45s">
+    <polygon points="244.0,38.0 290.8,65.0 290.8,119.0 244.0,146.0 197.2,119.0 197.2,65.0" class="hexo"/>
+    <polygon points="244.0,48.0 282.1,70.0 282.1,114.0 244.0,136.0 205.9,114.0 205.9,70.0" class="hexi" style="animation-delay:1.65s"/>
+    <text x="244" y="86" text-anchor="middle" class="org">ADOBE</text>
+    <text x="244" y="104" text-anchor="middle" class="bn">✦</text>
+    <text x="244" y="172" text-anchor="middle" class="name">Specialist</text>
+    <text x="244" y="190" text-anchor="middle" class="sub">Credly ✓</text>
+  </g><g class="badge" style="animation-delay:0.90s">
+    <polygon points="400.0,38.0 446.8,65.0 446.8,119.0 400.0,146.0 353.2,119.0 353.2,65.0" class="hexo"/>
+    <polygon points="400.0,48.0 438.1,70.0 438.1,114.0 400.0,136.0 361.9,114.0 361.9,70.0" class="hexi" style="animation-delay:2.10s"/>
+    <text x="400" y="86" text-anchor="middle" class="org">ADOBE</text>
+    <text x="400" y="104" text-anchor="middle" class="bn">✦</text>
+    <text x="400" y="172" text-anchor="middle" class="name">Certified</text>
+    <text x="400" y="190" text-anchor="middle" class="sub">Academy</text>
+  </g><g class="badge" style="animation-delay:1.35s">
+    <polygon points="556.0,38.0 602.8,65.0 602.8,119.0 556.0,146.0 509.2,119.0 509.2,65.0" class="hexo"/>
+    <polygon points="556.0,48.0 594.1,70.0 594.1,114.0 556.0,136.0 517.9,114.0 517.9,70.0" class="hexi" style="animation-delay:2.55s"/>
+    <text x="556" y="86" text-anchor="middle" class="org">MICROSOFT</text>
+    <text x="556" y="104" text-anchor="middle" class="bn">✦</text>
+    <text x="556" y="172" text-anchor="middle" class="name">AI Skills Fest</text>
+    <text x="556" y="190" text-anchor="middle" class="sub">Event</text>
+  </g><g class="badge" style="animation-delay:1.80s">
+    <polygon points="712.0,38.0 758.8,65.0 758.8,119.0 712.0,146.0 665.2,119.0 665.2,65.0" class="hexo"/>
+    <polygon points="712.0,48.0 750.1,70.0 750.1,114.0 712.0,136.0 673.9,114.0 673.9,70.0" class="hexi" style="animation-delay:3.00s"/>
+    <text x="712" y="86" text-anchor="middle" class="org">CLAUDE</text>
+    <text x="712" y="104" text-anchor="middle" class="bn">✦</text>
+    <text x="712" y="172" text-anchor="middle" class="name">Marketing 101</text>
+    <text x="712" y="190" text-anchor="middle" class="sub">Anthropic</text>
+  </g>
+</svg>
