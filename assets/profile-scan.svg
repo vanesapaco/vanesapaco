@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420" role="img" aria-label="Profile scan de Vanesa Paco (TechiWriter)">
-  <title>Profile scan · TechiWriter</title>
+  <title>Profile scan · vanesapaco</title>
   <defs>
     <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#b57edc" stop-opacity="0"/>
@@ -33,7 +33,7 @@
   <rect x=".5" y=".5" width="799" height="419" rx="14" fill="none" stroke="#3a2648"/>
   <!-- barra de ventana -->
   <circle cx="24" cy="22" r="5" fill="#ff5f57"/><circle cx="42" cy="22" r="5" fill="#febc2e"/><circle cx="60" cy="22" r="5" fill="#28c840"/>
-  <text x="400" y="26" text-anchor="middle" class="title">techiwriter@github: ~ $ ./profile-scan --live</text>
+  <text x="400" y="26" text-anchor="middle" class="title">vanesapaco@github: ~ $ ./profile-scan --live</text>
   <circle cx="760" cy="22" r="4" class="live"/><text x="748" y="26" text-anchor="end" class="k">LIVE</text>
 
   <!-- panel izquierdo: visual map -->
@@ -1475,7 +1475,7 @@
   <rect x="344" y="44" width="440" height="360" rx="8" fill="#150d1c" stroke="#2a1d36"/>
   <text x="358" y="62" class="lbl">SYSTEM.INFO</text>
   <g class="row" style="animation-delay:0.60s"><text x="358" y="96" class="k">SUBJECT</text><text x="474" y="96" class="v">Vanesa Paco Alvarez</text><line x1="358" y1="105" x2="764" y2="105" class="sep"/></g>
-    <g class="row" style="animation-delay:0.88s"><text x="358" y="123" class="k">HANDLE</text><text x="474" y="123" class="v">@TechiWriter</text><line x1="358" y1="132" x2="764" y2="132" class="sep"/></g>
+    <g class="row" style="animation-delay:0.88s"><text x="358" y="123" class="k">HANDLE</text><text x="474" y="123" class="v">@vanesapaco</text><line x1="358" y1="132" x2="764" y2="132" class="sep"/></g>
     <g class="row" style="animation-delay:1.16s"><text x="358" y="150" class="k">ROLE</text><text x="474" y="150" class="v">Content Marketer · Writer</text><line x1="358" y1="159" x2="764" y2="159" class="sep"/></g>
     <g class="row" style="animation-delay:1.44s"><text x="358" y="177" class="k">STATUS</text><text x="474" y="177" class="v">Creating | Automating | Vibecoding</text><line x1="358" y1="186" x2="764" y2="186" class="sep"/></g>
     <g class="row" style="animation-delay:1.72s"><text x="358" y="204" class="k">SKILLS</text><text x="474" y="204" class="v">IA Tools · Video · Writing · Design</text><line x1="358" y1="213" x2="764" y2="213" class="sep"/></g>

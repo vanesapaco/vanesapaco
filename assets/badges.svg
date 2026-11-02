@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="220" viewBox="0 0 800 220" role="img" aria-label="Badges oficiales de Vanesa Paco">
-  <title>Badges · TechiWriter</title>
+  <title>Badges · vanesapaco</title>
   <style>
     text { font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace; }
     .badge { opacity:0; animation:pop .6s cubic-bezier(.2,1.4,.4,1) forwards; transform-box:fill-box; transform-origin:center; }

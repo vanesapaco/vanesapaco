@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/profile-scan.svg" width="100%" alt="Profile scan de Vanesa Paco (TechiWriter)"/>
+  <img src="./assets/profile-scan.svg" width="100%" alt="Profile scan de Vanesa Paco (vanesapaco)"/>
 </p>
 
 <p align="center">
@@ -28,12 +28,12 @@
 ### ✦ GitHub en vivo
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=TechiWriter&show_icons=true&hide_border=true&bg_color=0f0a14&title_color=b57edc&icon_color=8639b0&text_color=f9f4fd" height="165" alt="GitHub stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TechiWriter&layout=compact&hide_border=true&bg_color=0f0a14&title_color=b57edc&text_color=f9f4fd" height="165" alt="Top languages"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=vanesapaco&show_icons=true&hide_border=true&bg_color=0f0a14&title_color=b57edc&icon_color=8639b0&text_color=f9f4fd" height="165" alt="GitHub stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vanesapaco&layout=compact&hide_border=true&bg_color=0f0a14&title_color=b57edc&text_color=f9f4fd" height="165" alt="Top languages"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TechiWriter&bg_color=0f0a14&color=f9f4fd&line=8639b0&point=b57edc&area=true&area_color=4a1868&hide_border=true" width="100%" alt="Contribution graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vanesapaco&bg_color=0f0a14&color=f9f4fd&line=8639b0&point=b57edc&area=true&area_color=4a1868&hide_border=true" width="100%" alt="Contribution graph"/>
 </p>
 
 <p align="center"><sub>✦ ✦ ✦ &nbsp; Diseñado con ♥ y un poco de vibecoding :3 ✨</sub></p>
