@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="340" viewBox="0 0 420 340" role="img" aria-label="Skills de Vanesa Paco">
+  <title>Skills · vanesapaco</title>
+  <style>
+    text { font-family:'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif; }
+    .lbl { fill:#b31b2c; font-size:12px; font-weight:700; letter-spacing:2.5px; }
+    .mono { font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace; }
+    .spk { fill:#b31b2c; animation:tw 2.4s ease-in-out infinite; transform-box:fill-box; transform-origin:center; }
+    @keyframes tw { 0%,100% { opacity:.35; transform:scale(.6) rotate(0deg); } 50% { opacity:1; transform:scale(1) rotate(45deg); } }
+
+    .arc { animation:fill 1.4s cubic-bezier(.3,.9,.3,1) forwards; }
+    .pc { fill:#2b1a1c; font-size:16px; font-weight:800; opacity:0; animation:fade .4s forwards; }
+    .sn { fill:#8a7b78; font-size:12px; font-weight:700; letter-spacing:1px; }
+    @keyframes fill { to { stroke-dashoffset:var(--o); } }
+    @keyframes fade { to { opacity:1; } }
+  </style>
+  <rect width="420" height="340" rx="18" fill="#f6f3ee"/>
+  <rect x="1" y="1" width="418" height="338" rx="17" fill="none" stroke="#e8dfd6" stroke-width="1.5"/>
+  <text x="24" y="34" class="lbl">SKILLS.SCAN</text>
+  <path class="spk" d="M392,23 Q392,30 399,30 Q392,30 392,37 Q392,30 385,30 Q392,30 392,23 Z" style="animation-delay:0.0s"/>
+  <g>
+    <circle cx="85" cy="118" r="34" fill="#fffdf9" stroke="#e8dfd6" stroke-width="8"/>
+    <circle cx="85" cy="118" r="34" fill="none" stroke="#b31b2c" stroke-width="8" stroke-linecap="round"
+      stroke-dasharray="213.6" stroke-dashoffset="213.6" transform="rotate(-90 85 118)" class="arc"
+      style="--o:10.7;animation-delay:0.30s"/>
+    <text x="85" y="124" text-anchor="middle" class="pc" style="animation-delay:0.90s">95%</text>
+    <text x="85" y="176" text-anchor="middle" class="sn">Writing</text>
+  </g><g>
+    <circle cx="210" cy="118" r="34" fill="#fffdf9" stroke="#e8dfd6" stroke-width="8"/>
+    <circle cx="210" cy="118" r="34" fill="none" stroke="#b31b2c" stroke-width="8" stroke-linecap="round"
+      stroke-dasharray="213.6" stroke-dashoffset="213.6" transform="rotate(-90 210 118)" class="arc"
+      style="--o:17.1;animation-delay:0.48s"/>
+    <text x="210" y="124" text-anchor="middle" class="pc" style="animation-delay:1.08s">92%</text>
+    <text x="210" y="176" text-anchor="middle" class="sn">Content</text>
+  </g><g>
+    <circle cx="335" cy="118" r="34" fill="#fffdf9" stroke="#e8dfd6" stroke-width="8"/>
+    <circle cx="335" cy="118" r="34" fill="none" stroke="#b31b2c" stroke-width="8" stroke-linecap="round"
+      stroke-dasharray="213.6" stroke-dashoffset="213.6" transform="rotate(-90 335 118)" class="arc"
+      style="--o:21.4;animation-delay:0.66s"/>
+    <text x="335" y="124" text-anchor="middle" class="pc" style="animation-delay:1.26s">90%</text>
+    <text x="335" y="176" text-anchor="middle" class="sn">AI Tools</text>
+  </g><g>
+    <circle cx="85" cy="246" r="34" fill="#fffdf9" stroke="#e8dfd6" stroke-width="8"/>
+    <circle cx="85" cy="246" r="34" fill="none" stroke="#b31b2c" stroke-width="8" stroke-linecap="round"
+      stroke-dasharray="213.6" stroke-dashoffset="213.6" transform="rotate(-90 85 246)" class="arc"
+      style="--o:32.0;animation-delay:0.84s"/>
+    <text x="85" y="252" text-anchor="middle" class="pc" style="animation-delay:1.44s">85%</text>
+    <text x="85" y="304" text-anchor="middle" class="sn">Automation</text>
+  </g><g>
+    <circle cx="210" cy="246" r="34" fill="#fffdf9" stroke="#e8dfd6" stroke-width="8"/>
+    <circle cx="210" cy="246" r="34" fill="none" stroke="#b31b2c" stroke-width="8" stroke-linecap="round"
+      stroke-dasharray="213.6" stroke-dashoffset="213.6" transform="rotate(-90 210 246)" class="arc"
+      style="--o:42.7;animation-delay:1.02s"/>
+    <text x="210" y="252" text-anchor="middle" class="pc" style="animation-delay:1.62s">80%</text>
+    <text x="210" y="304" text-anchor="middle" class="sn">Video</text>
+  </g><g>
+    <circle cx="335" cy="246" r="34" fill="#fffdf9" stroke="#e8dfd6" stroke-width="8"/>
+    <circle cx="335" cy="246" r="34" fill="none" stroke="#b31b2c" stroke-width="8" stroke-linecap="round"
+      stroke-dasharray="213.6" stroke-dashoffset="213.6" transform="rotate(-90 335 246)" class="arc"
+      style="--o:47.0;animation-delay:1.20s"/>
+    <text x="335" y="252" text-anchor="middle" class="pc" style="animation-delay:1.80s">78%</text>
+    <text x="335" y="304" text-anchor="middle" class="sn">Design</text>
+  </g>
+</svg>
