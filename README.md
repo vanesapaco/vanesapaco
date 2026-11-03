@@ -25,10 +25,8 @@
   <a href="https://www.credly.com/badges/f2692ddd-2143-4a1a-b354-b85f55789ed3"><img src="https://img.shields.io/badge/Credly-Adobe_Specialist-f6f3ee?style=flat-square&logo=adobe&logoColor=b31b2c&labelColor=b31b2c" alt="Adobe Specialist"/></a>
 </p>
 
-### ✦ Contribuciones
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vanesapaco/vanesapaco/output/snake.svg" width="100%" alt="Serpiente comiéndose mis contribuciones"/>
+  <img src="./assets/pyladies-workshop.svg" width="100%" alt="Lo que aprendimos en el workshop Personaliza tu GitHub — PyLadies Cochabamba"/>
 </p>
 
 <p align="center">
