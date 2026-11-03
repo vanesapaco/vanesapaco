@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="90" viewBox="0 0 1000 90" role="img" aria-label="Diseñado con amor y un poco de vibecoding">
+  <title>Footer · vanesapaco</title>
+  <style>
+    text { font-family:'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif; }
+    .lbl { fill:#b31b2c; font-size:12px; font-weight:700; letter-spacing:2.5px; }
+    .mono { font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace; }
+    .spk { fill:#b31b2c; animation:tw 2.4s ease-in-out infinite; transform-box:fill-box; transform-origin:center; }
+    @keyframes tw { 0%,100% { opacity:.35; transform:scale(.6) rotate(0deg); } 50% { opacity:1; transform:scale(1) rotate(45deg); } }
+
+    .ft { fill:#8a7b78; font-size:15px; font-weight:600; }
+    .hrt { fill:#b31b2c; animation:beat 1.2s ease-in-out infinite; transform-box:fill-box; transform-origin:center; }
+    @keyframes beat { 0%,100% { transform:scale(1); } 30% { transform:scale(1.35); } }
+  </style>
+  <path class="spk" d="M470,21 Q470,28 477,28 Q470,28 470,35 Q470,28 463,28 Q470,28 470,21 Z" style="animation-delay:0s"/><path class="spk" d="M500,21 Q500,28 507,28 Q500,28 500,35 Q500,28 493,28 Q500,28 500,21 Z" style="animation-delay:0.4s"/><path class="spk" d="M530,21 Q530,28 537,28 Q530,28 530,35 Q530,28 523,28 Q530,28 530,21 Z" style="animation-delay:0.8s"/>
+  <text x="500" y="66" text-anchor="middle" class="ft">Diseñado con <tspan class="hrt">♥</tspan> y un poco de vibecoding :3 ✨</text>
+</svg>

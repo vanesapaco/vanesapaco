@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="290" viewBox="0 0 1000 290" role="img" aria-label="Vanesa Paco — Content engineered for growth">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="290" viewBox="0 0 1000 290" role="img" aria-label="Vanesa Paco — Una creativa multidisciplinaria">
   <title>Vanesa Paco · @vanesapaco</title>
   <defs><clipPath id="av"><circle cx="140" cy="148" r="86"/></clipPath><clipPath id="card"><rect width="1000" height="290" rx="18"/></clipPath></defs>
   <style>
@@ -43,7 +43,7 @@
   <!-- texto -->
   <text x="272" y="116" class="hd">@VANESAPACO</text>
   <text x="270" y="160" class="h">Vanesa Paco Alvarez</text>
-  <text x="270" y="196" class="tag typing">Content engineered for growth</text>
+  <text x="270" y="196" class="tag typing">Una creativa multidisciplinaria</text>
   <g class="pill" style="animation-delay:0.50s"><rect x="270" y="214" width="181" height="34" rx="17" fill="#fffdf9" stroke="#b31b2c" stroke-opacity=".35"/><path class="spk2" d="M287,225 Q287,231 293,231 Q287,231 287,237 Q287,231 281,231 Q287,231 287,225 Z" style="animation-delay:0.0s"/><text x="300" y="236" class="pt">Planning &amp; strategy</text></g><g class="pill" style="animation-delay:0.65s"><rect x="460.6" y="214" width="188" height="34" rx="17" fill="#fffdf9" stroke="#b31b2c" stroke-opacity=".35"/><path class="spk2" d="M477.6,225 Q477.6,231 483.6,231 Q477.6,231 477.6,237 Q477.6,231 471.6,231 Q477.6,231 477.6,225 Z" style="animation-delay:0.0s"/><text x="490.6" y="236" class="pt">Marketing Automation</text></g><g class="pill" style="animation-delay:0.80s"><rect x="658.6" y="214" width="166" height="34" rx="17" fill="#fffdf9" stroke="#b31b2c" stroke-opacity=".35"/><path class="spk2" d="M675.6,225 Q675.6,231 681.6,231 Q675.6,231 675.6,237 Q675.6,231 669.6,231 Q675.6,231 675.6,225 Z" style="animation-delay:0.0s"/><text x="688.6" y="236" class="pt">Writing &amp; scripts</text></g><g class="pill" style="animation-delay:0.95s"><rect x="834.4000000000001" y="214" width="99" height="34" rx="17" fill="#fffdf9" stroke="#b31b2c" stroke-opacity=".35"/><path class="spk2" d="M851.4000000000001,225 Q851.4000000000001,231 857.4000000000001,231 Q851.4000000000001,231 851.4000000000001,237 Q851.4000000000001,231 845.4000000000001,231 Q851.4000000000001,231 851.4000000000001,225 Z" style="animation-delay:0.0s"/><text x="864.4000000000001" y="236" class="pt">AI Tools</text></g>
   <!-- stat -->
   <text x="910" y="122" text-anchor="end" class="big">3+</text>
